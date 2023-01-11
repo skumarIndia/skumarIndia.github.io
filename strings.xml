@@ -1,0 +1,2220 @@
+<resources>
+    <string name="app_name">DriveWell Go</string>
+    <string name="app_name_beta">BETA DriveWell Go</string>
+    <string name="app_name_internal">DriveWell Go</string>
+    <string name="app_name_dev">DEV DriveWell Go</string>
+    <string name="service_notification_content">Smarter Drivers. Safer Roads.</string>
+    <string name="service_notification_idle">Idle</string>
+    <string name="service_notification_waiting_for_trip">Waiting to record your next trip</string>
+    <string name="service_notification_recording">Currently recording your trip</string>
+    <string name="service_notification_standby">Currently on standby mode</string>
+    <string name="service_notification_standby_for_x_hours">Standby enabled for %1$s hours</string>
+    <string name="service_notification_standby_for_1_hour">Standby enabled for %1$s hour</string>
+    <string name="service_notification_low_battery">Low battery: trip recording suspended</string>
+    <string name="service_notification_suspended_power_save">Power save active: trip recording suspended</string>
+    <string name="service_notification_suspended_airplane_mode">Airplane mode: trip recording suspended</string>
+    <string name="service_notification_no_auth">You are logged out of the app.</string>
+    <string name="service_notification_user_before_start_recording_date">You are outside of the period when you can start recording trips.</string>
+    <string name="service_notification_user_after_expired_date">Your program has expired. Contact customer support.</string>
+    <string name="service_notification_invalid_country">Invalid Country.</string>
+    <string name="service_notification_remote_drive_detector">Remote drive detection disabled.</string>
+    <string name="service_notification_user_drive_detection">User drive detection disabled.</string>
+    <string name="service_notification_recording_standby">Stop and standby for one hour</string>
+    <string name="service_notification_background_restriction">Background restriction settings are impacting the app.</string>
+    <string name="service_notification_standby_enabled">Standby Enabled</string>
+    <string name="service_notification_bluetooth_missing">Bluetooth disabled</string>
+    <string name="service_name_fleet">%s</string>
+    <string name="service_notification_fleet_off_duty">Off-Duty until %s</string>
+    <string name="service_notification_fleet_on_duty">On-Duty until %s</string>
+    <string name="service_notification_fleet_on_duty_permanent">@string/service_notification_waiting_for_trip</string>
+    <string name="huawei_prompt_checkbox_text">Do not show again</string>
+    <string name="huawei_protected_apps">Huawei Protected Apps</string>
+    <string name="huawei_protected_required">%1$s needs to be enabled in \'Protected Apps\' to function properly.</string>
+    <string name="protected_apps">Protected Apps</string>
+    <string name="service_channel_name">Services</string>
+    <string name="service_channel_description">Services</string>
+    <!-- <string name="service_notification_recording_passenger_and_standby">Passenger + Standby</string> -->
+    <!-- Notification of Play Store Updates -->
+    <string name="update_title">A new update is available</string>
+    <string name="update_to">Update %1$s to version %2$s</string>
+    <!-- Welcome -->
+    <string name="welcomeRegisterButton">New User</string>
+    <string name="registerAsPolicyholder">Register as policy holder</string>
+    <string name="welcomeLoginButton">Returning user?</string>
+    <string name="get_started">Get started</string>
+    <string name="welcome">Welcome</string>
+    <string name="welcome_header_bold">New User</string>
+    <string name="welcome_header_regular">Enter your information to create a new account.</string>
+    <string name="request_pin_header">Welcome back</string>
+    <string name="request_pin_header_bold">Returning user login</string>
+    <string name="request_pin_header_regular">Enter your email address and we\'ll email \nyou a PIN code to get back in the app.</string>
+    <string name="request_pin_header_regular_mobile">Please enter your phone number below\nto receive your PIN code.</string>
+    <string name="login_auth_pin_header">Enter code</string>
+    <string name="login_auth_pin_header_regular">Enter the 4-digit PIN code we emailed you.</string>
+    <string name="policyholder_header_bold">Already added DriveWell Go to your policy?</string>
+    <string name="policyholder_header_regular">An 8-digit activation code was sent to the policyholder by email. Please enter below.</string>
+    <string name="register_why_username">Your username will appear on leaderboards in the app.</string>
+    <string name="email_login">Sign up with email</string>
+    <string name="returning_user"><u>Returning user?</u></string>
+    <string name="returning_user_question">"Returning user? "</string>
+    <string name="returning_user_click">Click here.</string>
+    <string name="permission_clarification">We will never post without your permission!</string>
+    <string name="terms_button_text">Continue</string>
+    <!-- Menu Strings -->
+    <string name="menu_welcome">Welcome</string>
+    <string name="menu_request_pin">Login</string>
+    <string name="menu_auth_pin">Login</string>
+    <string name="menu_provide_email">@string/menu_auth_pin</string>
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_trip_list">Trips</string>
+    <string name="menu_trip_list_edit">Label My Trips</string>
+    <string name="menu_leaderboard">Leaderboard</string>
+    <string name="menu_sub_leaderboard">Leaderboard</string>
+    <!-- This value is used as default title for LeaderBoardFragment.  This value gets ignored at runtime and is
+     arbitrary except that it should not be the same as any string appearing in @array/tab_titles.  Otherwise, the
+     LeaderBoardFragment will be treated incorrectly as a top level (root) fragment -->
+    <string name="menu_leaderboard_category">Category</string>
+    <string name="menu_more">More</string>
+    <string name="menu_invitations">Add Friends</string>
+    <string name="menu_invitations_inbox">Inbox</string>
+    <string name="menu_invitations_sent">Sent Invitations</string>
+    <string name="menu_messages">Messages</string>
+    <string name="menu_request_quote">Get a Quote Now!</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_edit_profile">Edit Profile</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_tips">Driving Tips</string>
+    <string name="menu_feedback">Feedback</string>
+    <string name="menu_map_trip">Trip Detail</string>
+    <string name="menu_map_feedback">Trip Feedback</string>
+    <string name="menu_about">About</string>
+    <string name="menu_terms_and_conditions">Terms and Conditions</string>
+    <string name="menu_register">Get Started</string>
+    <string name="menu_badges">Achievements</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_edit">Label trips</string>
+    <string name="menu_send">Send</string>
+    <string name="menu_contact_us">Contact Us</string>
+    <string name="menu_send_feedback">Send Feedback</string>
+    <string name="menu_driving_tips">Driving Tips</string>
+    <string name="menu_faq">FAQ</string>
+    <string name="menu_personal_insights">Personal Insights</string>
+    <string name="menu_invite">Invite</string>
+    <string name="menu_invite_friends_from_contacts">Invite Friends</string>
+    <string name="menu_contest_info">Contest</string>
+    <string name="menu_trial_expired">Trial Expired</string>
+    <string name="menu_preregister_step_one">Get Started</string>
+    <string name="menu_preregister_step_two">Client or Trial Registration?</string>
+    <string name="menu_register_trial">Terms and Conditions</string>
+    <string name="menu_register_client_step_one">Enter Enrollment Code</string>
+    <string name="menu_register_client_step_two">Terms and Conditions</string>
+    <string name="menu_location">Location</string>
+    <string name="menu_rewards">Rewards</string>
+    <string name="menu_add_friends">Invite Friends</string>
+    <string name="menu_impact">Were You in a Crash?</string>
+    <string name="menu_crashAssist">CrashAssist</string>
+    <string name="menu_crash_assist_requirements">CrashAssist Requirements</string>
+    <string name="menu_crash_assist_info">CrashAssist</string>
+    <string name="menu_crash_tips">Crash Scene Tips</string>
+    <string name="menu_trends">Trends</string>
+    <string name="menu_streaks">Streaks</string>
+    <string name="streaks_title">@string/menu_streaks</string>
+    <string name="menu_dark">@string/app_name</string>
+    <string name="menu_info">Info</string>
+    <string name="menu_miles">Miles History</string>
+    <string name="menu_impact_detected">Crash Detected</string>
+    <string name="menu_lockout">Lockout</string>
+    <string name="menu_tag_statement">Tag FCC Statement</string>
+    <string name="menu_app_tutorial">App Tour</string>
+    <!-- Errors with missing services -->
+    <string name="warning_channel_name">Warnings</string>
+    <string name="warning_channel_description">Warnings</string>
+    <string name="silent_channel_name">Silenced</string>
+    <string name="silent_channel_description">Silenced</string>
+    <string name="location_service_required">Location service required</string>
+    <string name="gps_permission_required">GPS Permission Required</string>
+    <string name="google_play_services_title_failure">Google Play Services Failure</string>
+    <string name="google_play_services_title_suspended">Google Play Services Suspended</string>
+    <string name="google_play_services_message">Drive detection may be unavailable. Tap to attempt resolution.</string>
+    <string name="service_requires_gps">Enable GPS to use %1$s</string>
+    <string name="service_requires_netloc">Enable Google Location Accuracy to use %1$s</string>
+    <string name="service_requires_google_play">Enable Google Play Services to use %1$s</string>
+    <string name="btle_required">Bluetooth required</string>
+    <string name="enable_bluetooth_title">Enable Bluetooth</string>
+    <string name="enable_notifications_title">Allow Notifications</string>
+    <string name="trip_recording_suspended_power_save">Power Save must be disabled for %1$s to record trips</string>
+    <string name="trip_recording_suspended_low_battery">Low battery preventing %1$s from recording trips</string>
+    <string name="trip_recording_suspended_background_restricted">%1$s cannot currently record trips due to background restriction. Tap to fix the problem.</string>
+    <string name="background_restricted_warning_message_with_permission">Android is preventing %1$s from recording trips. To resolve the problem, tap this notification and choose Allow to let %2$s run in the background.</string>
+    <string name="background_restricted_warning_message_without_permission">Android is preventing %1$s from recording trips. To resolve the problem, tap this notification to go to your Battery Optimization Settings screen, find %2$s in the All list, and turn off battery optimization for the app.</string>
+    <string name="service_requires_btle">Enable Bluetooth to use %1$s</string>
+    <string name="location_service_error_title">Failed to acquire GPS lock during trip</string>
+    <string name="location_service_error_content">If this issue persists, please try rebooting your phone</string>
+    <string name="impact_alert_title">Impact Alert</string>
+    <string name="impact_alert_start">Triggered - sending now</string>
+    <string name="impact_alert_start_delayed">Alert will be sent in %1$d seconds</string>
+    <string name="impact_alert_cancel">Cancel</string>
+    <string name="impact_alert_send_now">Send Now</string>
+    <string name="impact_alert_send_ok">Triggered</string>
+    <string name="push_channel_name">Updates</string>
+    <string name="push_channel_description">Updates</string>
+    <string name="dashGpsWarning">
+<![CDATA[
+        GPS not active. <b> Activate now?</b>
+        ]]>
+    </string>
+    <string name="dashBatteryWarning">
+<![CDATA[
+        Phone battery low: trip recording disabled
+        ]]>
+    </string>
+
+    <string name="dashPowerSaveWarning">
+<![CDATA[
+        Phone in power save mode: trip recording disabled
+        ]]>
+    </string>
+
+    <string name="dashGpsPermissionWarning">
+       <![CDATA[
+        Full GPS permission required. <b>Grant now?</b>
+        ]]>
+    </string>
+
+    <string name="dashNetLocWarning">
+<![CDATA[
+        Google Location Accuracy is required for this app. <b> Activate now?</b>
+        ]]>
+    </string>
+
+
+    <string name="dashBluetoothWarning">
+<![CDATA[
+        Bluetooth not active. <b> Activate now?</b>
+        ]]>
+    </string>
+
+    <string name="dashWiFiWarning">
+<![CDATA[
+        WiFi not active. <b> Activate now?</b>
+        ]]>
+    </string>
+
+    <string name="dashGyroWarning">
+        <![CDATA[
+        Gyroscope not present. <b>Learn more</b>
+        ]]>
+    </string>
+    <string name="physActivityPermissionWarning">
+       <![CDATA[
+        Activity permission required. <b>Grant now?</b>
+        ]]>
+    </string>
+
+    <string name="dashLowBatteryWarning">Phone battery low: trip recording disabled</string>
+    <string name="gps_disabled_trip_start_low_battery">GPS is disabled due to low battery</string>
+    <string name="dashOffDutyWarning">Currently off duty - no trip recording</string>
+    <string name="dashTripMetricsTitle">How is your score calculated?</string>
+    <string name="dashTripMetricsNotAvailable">N/A</string>
+    <string name="dashTripMetricsFooter">Tap the score display on the dashboard to see your score breakdown again.</string>
+    <string name="dashTripMetricsKeysDw">Braking\nAcceleration\nCornering\nSpeeding\nPhone use</string>
+    <string name="dashboardRequestPermissions">We need to ask some permissions for DriveWell Go to work.</string>
+    <string name="dashDaysRemainingInTrialPlural">%1$d days remaining in your trial</string>
+    <string name="dashDaysRemainingInTrialLastDay">Last day of your trial</string>
+    <string name="dashDaysRemainingInTrialSingular">1 day remaining in your trial</string>
+    <string name="dashLinkingRequiredWarning">One or more unlinked vehicles</string>
+    <string name="dashLinkingRequiredPopupHeader">One or more unlinked vehicles</string>
+    <string name="dashLinkingRequiredPopupContent">Tags must be linked to vehicles in order to record trips. To link your tag to your vehicle now, tap \'Link\' and follow the instructions.</string>
+    <string name="dashLinkingRequiredPopupOkay">Link</string>
+    <string name="dashSuspendBanner">Standby mode: Expires %1$s</string>
+    <string name="dashGyroExplanation">Your phone does not have a gyroscope and when this app is used without a %s tag, the driver scoring for such phones is in beta. Please provide any feedback you have on your scores.</string>
+    <string name="dashGyroExplanationTitle">Gyroscope Not Present</string>
+    <string name="yourTickets">"Your tickets in the draw"</string>
+    <string name="dash_summary_driving_trips">Driving\nTrips</string>
+    <string name="dash_summary_non_car_trips">Non-car\nTrips</string>
+    <string name="dash_summary_miles">Scored Miles</string>
+    <string name="dash_summary_trips_top">Trips Over 2 Miles</string>
+    <string name="dash_summary_km">Scored km</string>
+    <string name="dash_summary_trips">Scored Trips</string>
+    <string name="dash_latest_trip">Latest Scored Trip</string>
+    <string name="dash_latest_trip_without_score_text">Latest Trip</string>
+    <string name="dash_leaderboards">Leaderboards</string>
+    <string name="dash_message">Message</string>
+    <string name="dash_overall_score_empty">Overall: - -</string>
+    <string name="dash_no_trips">No scored trips yet. Start driving!</string>
+    <string name="dash_no_trips_without_score_text">You don’t have any trips yet.</string>
+    <string name="dash_no_achievements">No achievements yet. Drive well!</string>
+    <string name="dash_trends">@string/menu_trends</string>
+    <string name="dash_no_trends">Keep driving! Trends will be unlocked in the next few days.</string>
+    <string name="trends_api_failure_toast">There was an error fetching your trends. Please try again later.</string>
+    <string name="trends_current_api_failure_toast">There was an error fetching your today\'s trends.</string>
+    <string name="dash_no_streaks">You don\'t have enough trips. Start driving to unlock streaks!</string>
+    <string name="dash_latest_achievements">Latest Achievements</string>
+    <string name="dash_select_a_new_plan"> Select a new plan!</string>
+    <string name="dash_card_navigate">View details</string>
+    <string name="dash_card_navigate_family">View family</string>
+    <string name="dash_card_navigate_trends">View all</string>
+    <string name="dash_card_navigate_rewards">View details</string>
+    <string name="dash_plan_expires_date">
+        <![CDATA[
+        Your monthly mileage plan<br />expires on <b>%s.</b>
+        ]]>
+    </string>
+    <string name="dash_select_a_plan">Select a plan!</string>
+    <string name="dash_monthly_mileage_plan">Please select a monthly mileage plan</string>
+    <string name="dash_select_plan">Select Plan</string>
+    <string name="dash_phone_distraction">Phone Use</string>
+    <string name="dash_empty_trend_card_title" translatable="false">%s - -</string>
+    <string name="dash_title">@string/app_name_internal</string>
+    <string name="trends_screen_title">@string/menu_trends</string>
+    <string name="trends_overall_title">Overall: </string>
+    <string name="trends_acceleration_title">Harsh Acceleration: </string>
+    <string name="trends_braking_title">Hard Braking: </string>
+    <string name="trends_speeding_title">Speeding: </string>
+    <string name="trends_cornering_title">Cornering: </string>
+    <string name="trends_distraction_title">Phone Use: </string>
+    <string name="trends_distance_title">Distance: </string>
+    <string name="trends_smoothness_title">Smoothness: </string>
+    <string name="trends_time_of_day_title">Time of Day: </string>
+    <string name="trends_roads_title">Roads: </string>
+    <string name="trends_coverage_title">Coverage Ratio: </string>
+    <string name="trends_night_title">Night Driving: </string>
+    <!--  Cumulative score switch  -->
+    <string name="cumulative_trends">12 Month Trends</string>
+    <string name="two_week_trends">2 Week Trends</string>
+    <!-- Trip List -->
+    <string name="tripListTo">to</string>
+    <string name="tripListFrom">From</string>
+    <string name="tripListUnknownLocation">Unknown location</string>
+    <string name="tripListIn">In</string>
+    <string name="tripListNoContent">No trips found</string>
+    <string name="today">Today</string>
+    <string name="noGPSfound">No GPS found</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="at">
+        <![CDATA[
+        <b>%1$s</b> at <b>%2$s</b>
+        ]]>
+    </string>
+    <string name="at_dash">@string/at</string> <!-- no need for an actual alternate text -->
+    <string name="Classification">Classification</string>
+    <string name="tripListNoContent1">You don\'t have any trips yet.</string>
+    <string name="tripListNoContent2">Are you a safe driver?</string>
+    <string name="tripListNoContent3">Start driving to see your trips and scores.</string>
+    <string name="tripListNoContent3WithoutScoreText">Start driving to see trips.</string>
+    <string name="current_status">Current status</string>
+    <string name="recording_title">Not recording</string>
+    <string name="recording_status">Waiting for your next trip</string>
+    <string name="currently_recording">Currently recording</string>
+    <string name="recording_stopped_title">Recording stopped</string>
+    <string name="recording_stopped_status">No score will be calculated</string>
+    <string name="trip_status_recording">Recording now</string>
+    <string name="trip_status_waiting_for_network">Waiting for network</string>
+    <string name="trip_status_waiting_for_wifi_network">Waiting for Wi-Fi</string>
+    <string name="trip_status_waiting_for_results">Scoring now</string>
+    <string name="trip_status_no_phone_present">Without phone (not present or low battery)</string>
+    <string name="trip_status_error">Error</string>
+    <string name="trip_status_waiting_to_record"><b>Not recording</b>\nWaiting for your next drive</string>
+    <string name="tripListToday">Today</string>
+    <string name="tripListYesterday">Yesterday</string>
+    <string name="tripListThisWeek">Last Seven Days</string>
+    <string name="tripListLastWeek">Last Week</string>
+    <string name="tripListOlder">Older</string>
+    <string name="selectTransporationModeTitle">Choose one</string>
+    <string name="selectTransportationModeBody">How did you travel on this trip?</string>
+    <string name="selectTransportationModeBodyMultiple">How did you travel on these trips?</string>
+    <string name="selectTransporationModeRecordingDriveTitle">Warning</string>
+    <string name="selectTransporationModeRecordingDriveMessage">No score will be calculated if you select that you are not driving a vehicle on this trip. This action cannot be undone.</string>
+    <string name="trip_status_no_score_stopped_manually">No score: Stopped manually</string>
+    <string name="trip_status_no_score_insufficient_data">No score: Insufficient data</string>
+    <string name="trip_status_no_score">No score</string>
+    <string name="trip_status_no_score_without_score_text"></string>
+    <string name="trip_label_hint">Did you know you can label your trips?</string>
+    <string name="trip_recording_hint">Did you know your trips record in the background?</string>
+    <string name="trip_recording_hint_title">How does trip recording work?</string>
+    <string name="trip_recording_suspended">Trip recording suspended</string>
+    <string name="trip_recording_hint_body">%1$s runs in the background and automatically records and scores your trips as you drive.\n\n%2$s will not record drives if the battery level is under %3$d%%</string>
+    <string name="trip_recording_hint_body_without_score_text">%1$s runs in the background and automatically records your trips as you drive.\n\n%2$s will not record drives if the battery level is under %3$d%%</string>
+    <string name="trip_low_battery_info">This drive was interrupted due to low phone battery.</string>
+    <string name="tripListDurationLessThanOneMinute">&lt;1 min</string>
+    <string name="tripListDurationMinutes">%1$d min</string>
+    <string name="tripListDurationHours">%1$d:%2$02d hr</string>
+    <!-- User labels -->
+    <string name="label_passenger">Passenger</string>
+    <string name="label_driver">Driver</string>
+    <string name="label_passenger_car">Passenger</string>
+    <string name="label_driver_car">Driver</string>
+    <string name="label_not_a_car">Not driving</string>
+    <string name="label_foot">Foot</string>
+    <string name="label_bike">Bicycle</string>
+    <string name="label_train">Train</string>
+    <string name="label_boat">Boat</string>
+    <string name="label_bus">Bus</string>
+    <string name="label_motorcycle">Motorcycle</string>
+    <string name="label_plane">Airplane</string>
+    <string name="label_vehicle_other">Other</string>
+    <string name="label_tag_only">Tag only</string>
+    <string name="label_driver_no_distraction">Driver (Passenger used phone)</string>
+    <string name="label_trip_definition_text"><u>What do these labels mean?</u></string>
+    <string name="trip_event_name_passenger_used_phone">Phone used by passenger</string>
+    <string name="trip_label_definition_title">Trip label definitions:</string>
+    <string name="label_trip_text_for_driving">I was driving:</string>
+    <string name="label_trip_text_for_not_driving">I was not driving:</string>
+    <string name="trip_label_driver_detail_text">I was driving the vehicle and a score will be calculated.</string>
+    <string name="trip_label_driver_phone_use_by_passenger_detail_text">I was driving the vehicle but my phone was used by a passenger and phone usage will be excluded from the score.</string>
+    <string name="trip_label_motorcycle_detail_text">I was driving a motorcycle and the trip will not be scored.</string>
+    <string name="trip_label_not_driving_detail_text">In all these categories, a score is not calculated.</string>
+    <!-- Terms and Conditions -->
+    <string name="terms_header">To use the DriveWell Go app,\nyou must accept the following terms and conditions:</string>
+    <string name="terms_check_box">I have read and agree to the terms and conditions of the DriveWell Go program.</string>
+    <!-- Map Trip -->
+    <string name="mapTripStart">Start</string>
+    <string name="mapTripEnd">End</string>
+    <string name="mapTripLegendEstimated">Inference</string>
+    <string name="mapTripLegendYourTrip">Trip</string>
+    <string name="mapTripLegendSpeeding">Speeding</string>
+    <string name="mapTripLegendPhoneMotion">Phone Use</string>
+    <string name="mapTripLegendPremiumPhoneMotion">Distraction - Phone Use</string>
+    <string name="mapTripLegendAcceleration">Harsh acceleration</string>
+    <string name="mapTripLegendBraking">Hard braking</string>
+    <string name="mapTripLegendCornering">Hard cornering</string>
+    <string name="mapTripSevereAcceleration">Severe acceleration</string>
+    <string name="mapTripSevereBraking">Severe braking</string>
+    <string name="mapTripSevereCornering">Severe cornering</string>
+    <string name="mapTripCalling">Phone call</string>
+    <string name="mapTripTapping">Screen Tapping</string>
+    <string name="mapTripLegendPremiumScreenTapping">Distraction - Screen Tapping</string>
+    <string name="mapTripRisk">Risk</string>
+    <string name="mapInfoText">Score Breakdown</string>
+    <string name="mapInfoTextNoScore">Score Breakdown Unavailable</string>
+    <string name="mapLegendText">Legend</string>
+    <string name="scoreBreakdownNoScore">Insufficient data to score</string>
+    <string name="mapTripTagOnlyTitle">No map available</string>
+    <string name="mapTripTagOnlyBody">Because no phone was present when this trip occurred, no location data can be shown.</string>
+    <string name="mapsRequestPermissions">Maps need a permission for faster loading.</string>
+    <string name="mapTripSpeedingTitle">Speeding</string>
+    <string name="mapTripSpeedingAndDistractionTitle">Distracted while Speeding</string>
+    <string name="mapTripSpeedingSnippet">%1$s, Limit: %2$d %3$s Your speed: %4$d %5$s</string>
+    <string name="mapTripSpeedingSnippetWithoutSpeedLimit">%1$s, Your speed: %2$d %3$s</string>
+    <string name="mapTripNoData">No map is available for this trip. Please try again later.</string>
+    <string name="mapTripScore">Trip Score</string>
+    <string name="mapTripEventNumber" formatted="false">Issue %d of %d</string>
+    <string name="mapTripEventName">%1$s</string>
+    <string name="mapPassengerUsedTripEventName">%1$s by passenger</string>
+    <string name="mapTripNoEvents">Great Job! Your trip contains no events.</string>
+    <string name="mapTripNotScored">Your trip is currently being scored. Check back soon!</string>
+    <string name="mapTripNotScoredWithoutScoreText">Your trip is currently being processed. Check back soon!</string>
+    <string name="mapTripRecording">Your trip is currently recording.</string>
+    <string name="mapTripVehicleName" formatted="false">Vehicle: %s</string>
+    <string name="mapTripkph">kph</string>
+    <string name="mapTripmph">mph</string>
+    <string name="mapTripg">g</string>
+    <string name="scoreBreakdownKeyAccel">Acceleration</string>
+    <string name="scoreBreakdownKeyBreaking">Braking</string>
+    <string name="scoreBreakdownKeyCornering">Cornering</string>
+    <string name="scoreBreakdownKeyPhoneMotion">Phone Use</string>
+    <string name="scoreBreakdownKeyDistraction">Distraction</string>
+    <string name="scoreBreakdownKeySpeeding">Speeding</string>
+    <string name="scoreBreakdownKeyUnknown">Unknown</string>
+    <string name="scoreBreakdownKeyDistanceMiles">Miles Driven</string>
+    <string name="scoreBreakdownKeyDistanceKms">Kilometers Driven</string>
+    <string name="scoreBreakdownKeyTimeDriving">Driving Time</string>
+    <string name="scoreBreakdownKeyTimeNighttime">Nighttime Driving</string>
+    <string name="scoreBreakdownKeyTimeIdle">Idle Time</string>
+    <string name="scoreBreakdownKeyTimePhoneMotion">Phone Distraction Time</string>
+    <string name="scoreBreakdownKeyTimeSpeeding">Speeding Time</string>
+    <string name="scoreBreakdownKeyTimePhoneTapping">Phone Tapping Time</string>
+    <string name="scoreBreakdownKeyTimePhoneHandheldCall">Handheld Call Time</string>
+    <string name="scoreBreakdownKeyEventsBraking">Hard Braking Events</string>
+    <string name="scoreBreakdownKeyEventsAcceleration">Hard Acceleration Events</string>
+    <string name="scoreBreakdownKeyEventsCornering">Cornering Events</string>
+    <string name="scoreBreakdownKeyEventsPhoneMotion">Phone Distraction Events</string>
+    <string name="scoreBreakdownKeyEventsSpeeding">Speeding Events</string>
+    <string name="scoreBreakdownKeyEventsPhoneTapping">Phone Tapping Events</string>
+    <string name="scoreBreakdownKeyEventsPhoneHandheldCall">Handheld Call Events</string>
+    <!-- Map Feedback -->
+    <string name="mapFeedbackDetails"><u>Details</u></string>
+    <string name="mapFeedbackSupport">Contact Support</string>
+    <string name="mapFeedbackSelectOne">Select one:</string>
+    <string name="mapFeedbackIncorrectSpeeding">I was not speeding</string>
+    <string name="mapFeedbackExpectedSpeedLimit">Correct Speed Limit:</string>
+    <string name="mapFeedbackIncorrectPhoneMotion">I was not using my phone</string>
+    <string name="mapFeedbackOther">Other</string>
+    <string name="mapFeedbackComment">Explain the problem in detail</string>
+    <string name="mapFeedbackExpectedSpeedLimitMPH">\u0020mph</string>
+    <string name="mapFeedbackExpectedSpeedLimitKPH">\u0020kph</string>
+    <string name="mapFeedbackSpeedingToast">Please enter the correct speed limit</string>
+    <string name="mapFeedbackOtherToast">Please explain your "other" problem in the comment box</string>
+    <string name="mapFeedbackNoInfoToast">Please enter info to send feedback</string>
+    <string name="mapFeedbackDone">Done</string>
+    <string name="mapFeedbackCannotBeBlank">This field can not be blank.</string>
+    <string name="feedbackTitle">Feedback</string>
+
+    <!-- Settings -->
+    <string name="settings_user_prefs">Preferences</string>
+    <string name="settings_wifi_only">Upload trip data using Wi-Fi only</string>
+    <string name="settings_wifi_only_body">If you select this option, your trip data will be uploaded only when you come within range of a Wi-Fi network through which your phone has Internet connectivity. This option may cause trips to take longer to get delivered and processed.</string>
+    <string name="settings_foreground_service">Show in notification bar</string>
+    <string name="settings_foreground_service_body">If you select this option, trip detection may improve on some phones because the Android OS is less likely to kill the app\'s service when resources are low.</string>
+    <!-- <string name="settings_foreground_service_body">Whether to run the trip detector in the \'Foreground\' or not.\n\nWhen it runs in the foreground,
+        it\'s unlikely to be destroyed by Android when resources on the device are low, and so likely to be more reliable.\n\n
+    When the trip detector service is running in the foreground, Android demands that it place a notification in the status bar.
+    If the notification is annoying, you can disable this settings to remove the notification and see if trip detection remains reliable.</string> -->
+    <string name="settings_foreground_service_confirm">Confirm</string>
+    <string name="settings_foreground_service_button_samsung">Unmonitored apps</string>
+    <string name="settings_foreground_service_body_samsung">Samsung instructions: ensure the app is in the Unmonitored Apps list in order to record trips without the foreground notification.</string>
+    <string name="settings_suspend_mode">Standby mode</string>
+    <string name="settings_units">Units</string>
+    <string name="settings_diagnostic">Show diagnostic info</string>
+    <string name="settings_record_bicycle" translatable="false">Record bicycle trips</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_notifications_new_results">Notify me when results are available</string>
+    <string name="settings_notifications_daily_trip_summaries">Notify me of Daily Trip Summaries</string>
+    <string name="settings_notifications_new_friend_requests">Notify me about friend requests</string>
+    <string name="settings_device_info">Device Information</string>
+    <string name="aboutDeviceIdKey">Device Id:</string>
+    <string name="aboutVersionKey">Version:</string>
+    <string name="aboutUserIdKey">User Id:</string>
+    <string name="aboutServerURLKey">Server URL:</string>
+
+    <string name="aboutAwsTokenKey" translatable="false">Token:</string>
+    <string name="aboutDriveDetectorKey" translatable="false">Drive detector:</string>
+    <string name="driveDetectorGp" translatable="false">Phone-only</string>
+    <string name="driveDetectorEditStart" translatable="false">Requesting drive detector change</string>
+    <string name="driveDetectorEditFailure" translatable="false">Failed to change drive detector</string>
+
+    <string name="settings_suspend_mode_off">Off</string>
+    <string name="settings_suspend_mode_1_hour">1 hour</string>
+    <string name="settings_suspend_mode_6_hours">6 hours</string>
+    <string name="settings_suspend_mode_1_day">1 day</string>
+    <string name="settings_suspend_mode_3_days">3 days</string>
+    <string name="settings_suspend_mode_7_days">7 days</string>
+
+    <!-- Deregistration / Deauthorization -->
+    <string name="deregister">sign out</string>
+    <string name="deregisterTitle">Confirm deregister device</string>
+    <string name="deregisterContent">Clicking ‘OK’ will remove your account from this device. Are you sure you want to deregister your device?\nIf you deregister, you can sign in as a returning user and use the PIN code sent to the email registered.</string>
+    <string name="deauthorizedTitle">Authorization Needed</string>
+    <string name="deauthorizedContent">Your customer status has changed.  You need to authenticate again.</string>
+
+    <string name="ON">On</string>
+    <string name="OFF">Off</string>
+
+    <!-- General interaction -->
+    <string name="Continue">CONTINUE</string>
+    <string name="Refresh">Refresh</string>
+    <string name="request_pin_button">CONTINUE</string>
+    <string name="auth_pin_button">Confirm</string>
+
+    <!--************************************ Register strings ***********************************-->
+
+    <!--Field Hints-->
+    <string name="email_hint">Email address</string>
+    <string name="username_hint">Username</string>
+    <string name="enrollment_hint">Enrollment code</string>
+    <string name="first_name_hint">First name</string>
+    <string name="last_name_hint">Last name</string>
+    <string name="name_primary_hint">Name (Primary)</string>
+    <string name="name_secondary_hint">Name (Secondary)</string>
+    <string name="birthday_hint">Date of birth (optional)</string>
+    <string name="id_hint">ID (optional)</string>
+    <string name="policy_number_hint">Policy Number</string>
+    <string name="driver_number_hint">Driver\'s License Number</string>
+    <string name="local_chapter_hint">Local Chapter</string>
+    <string name="group_id_hint">Group Id</string>
+    <string name="mobile_hint">Phone number</string>
+    <string name="pin_mobile_hint">@string/mobile_hint</string>
+    <string name="activation_code">Activation code</string>
+    <string name="profile_passcode_hint">Token</string>
+    <string name="zip_field_hint">e.g. 01234</string>
+    <string name="vehicle_registration_hint">ABC-1234</string>
+    <string name="card_vehicles">Vehicles</string>
+    <!--Headers and Footers-->
+    <string name="user_details_header">USER DETAILS</string>
+    <string name="username_leaderboard_footer">Your username will appear on leaderboards in the app.</string>
+
+    <!--Clickable TextViews-->
+    <string name="whyEmail_text"><u>Why do we need your email address?</u></string>
+    <string name="returningUser_text"><u>Returning User?</u></string>
+    <string name="nonClickable_text">Regular Text</string>
+    <string name="termsAndConditions_text">Terms and Conditions</string>
+
+    <!-- below enables webLink (not emailLink) on registration fragment; requires to set the url for the app as below -->
+    <string name="webLink_contest_rules_url">https://www.cmtelematics.com/</string>
+    <string name="webLink_text"><u>Contest Information</u></string>
+
+    <!--Dialog Hint Text and Title-->
+    <string name="title_military_status">Your military status</string>
+    <string name="title_drive_for_work">Do you drive for work?</string>
+    <string name="title_age_range">Your age group</string>
+    <string name="registerHelp"><u>Why do we need your email address?</u></string>
+    <string name="military_status_hint_text">Military Status</string>
+    <string name="drive_for_work_hint_text">Do you drive for work?</string>
+    <string name="age_hint_text">Age</string>
+
+    <!--Buttons-->
+    <string name="continue_text">Continue</string>
+
+    <string name="enrollment_body">Please enter the enrollment code supplied to you to activate your account.</string>
+    <string name="register_settings">Only use Wi-Fi to upload trip data</string>
+    <string name="registerSettingsWiFi">If this option is enabled, trips will only be uploaded using Wi-Fi connections.</string>
+    <string name="register">Register</string>
+    <string name="done">Done</string>
+    <string name="registerHelpTitle">Trial registration</string>
+    <string name="loginRegisterEnterEmail">Please give us your email so we can verify your account.</string>
+
+    <string name="tos_acceptance_desc">
+        <![CDATA[
+        I agree to the <a href="">Mobile App License Agreement</a> &amp; <a href="">Privacy Policy</a>
+    ]]>
+    </string>
+
+    <string name="register_confirmation_popup_title"><b>Is this the correct email address?</b></string>
+    <string name="register_confirmation_popup_body"><![CDATA[%s<br><br>If the email you entered above is incorrect, you will not receive the pin code to your email.]]></string>
+    <string name="register_confirmation_popup_confirm"><b>CONTINUE</b></string>
+    <string name="register_confirmation_popup_update">Update email</string>
+    <!--******************************** End of Register strings ********************************-->
+
+
+    <!-- Profile strings -->
+    <string name="fragment_edit_profile_title">Edit Profile</string>
+    <string name="profile_your_profile">Your profile</string>
+    <string name="provide_email_field_description">@string/user_details</string>
+    <string name="provide_mobile_field_description">MOBILE NUMBER</string>
+    <string name="user_details">USER DETAILS</string>
+    <string name="email_address">EMAIL ADDRESS</string>
+    <string name="preferences">Preferences</string>
+    <string name="profile_firstname">First Name</string>
+    <string name="profile_lastname">Last Name</string>
+    <string name="profile_username">Username</string>
+    <string name="profile_email">Email</string>
+    <string name="profile_zip_code">Zip code</string>
+    <string name="profile_name_primary">Name (Primary)</string>
+    <string name="profile_name_secondary">Name (Secondary)</string>
+    <string name="profile_mobile">Mobile</string>
+    <string name="profile_pin_code">Pin code</string>
+    <string name="profile_birthday">Date of Birth</string>
+    <string name="profile_id">ID</string>
+    <string name="profile_group_id">Group ID</string>
+    <string name="profile_policy_number">Policy Number</string>
+    <string name="profile_save">Save</string>
+    <string name="profile_reg_code">Token</string>
+    <string name="profile_reg_code_hint">Token</string>
+    <string name="profile_customer_key">Customer Key</string>
+    <string name="profile_vehicles">Vehicles</string>
+    <string name="profile_driver_number">Driver Number</string>
+    <string name="profile_local_chapter">Local Chapter</string>
+    <string name="profileVehicleTagKey">Tag:</string>
+    <string name="profileVehicleNameKey">Name:</string>
+    <string name="profile_no_registration_code" translatable="false">No registration code</string>
+    <string name="downloading_photo">Downloading Photo...</string>
+    <string name="profile_cannot_edit">This field cannot be edited.</string>
+    <string name="profile_account_id_display">Account id %s</string>
+
+    <!-- Profile item additional info strings-->
+    <string name="profile_edit_email_additional_info"></string>
+
+    <!-- Invite strings -->
+    <string name="road_trip">Make it a road trip.</string>
+    <string name="invite_friends_screen_main_prompt">Invite your friends and help make them better, smarter, and safer drivers. Ask them to install the %1$s App today.</string>
+    <string name="contacts_privacy_disclaimer">We respect privacy, therefore your contact list is not shared with anybody, even us.</string>
+    <string name="invite_success">Invite(s) sent successfully!</string>
+    <string name="invite_no_selection">No contacts selected yet.</string>
+    <string name="invite_fail">Invites could not be sent. Please check your internet connection.</string>
+    <string name="see_contacts">See Contacts</string>
+    <string name="invite_email_hint">Enter Email</string>
+    <string name="invite_no_permission_hint">a@example.com, b@example.com</string>
+    <string name="to_text">To:</string>
+    <string name="send_invites">Send Invites</string>
+    <string name="send_invite">Send Invite</string>
+    <string name="no_emails_warning">No valid emails selected or entered</string>
+    <string name="share_title" formatted="false">Share %s</string>
+
+    <!-- Add friend strings -->
+    <string name="friend_search_hint">Enter username</string>
+    <string name="add_friend_empty_message">Enter a username to add your friend</string>
+    <string name="add_friend_failed">Couldn\'t add friend. Please check your Internet connection.</string>
+    <string name="add_by_username">Add by Username</string>
+    <string name="added_friend">Request Sent</string>
+    <string name="already_friends">Already Friends</string>
+
+    <!-- Support strings -->
+    <string name="supportEmailUs">email us</string>
+    <string name="supportTitle">Questions and Comments</string>
+    <string name="supportBody">Contact us with questions or feedback</string>
+    <string name="supportEmailSuccessTitle">Thank you!</string>
+    <string name="supportEmailSuccessBody">Your message has been sent. Thank you for your feedback!</string>
+    <string name="supportNeedEmailPrompt">Please enter your email so we can get back to you.</string>
+    <string name="showTagDiagnosticsButton">tag diagnostics</string>
+    <string name="faq">Frequently Asked Questions</string>
+    <string name="supportTerms">Terms &amp; Conditions</string>
+    <string name="helpContestInfo">Contest Information</string>
+    <string name="helpContestFaqs">Contest FAQs</string>
+    <string name="rateApp">Rate This App</string>
+    <string name="rate_enjoy_dialog">Have you enjoyed using this app?</string>
+    <string name="rate_dialog">Would you like to rate this app?</string>
+    <string name="supportAppProvider"></string>
+
+    <!-- GPS Permission Required -->
+    <string name="gps_permission_where_to">Where to?</string>
+    <string name="gps_permission_description">Enable location access to measure\nand improve your driving!</string>
+    <string name="gps_permission_rewards_description">Enable location access to improve your driving and qualify for rewards!</string>
+    <string name="gps_permission_discount_description">Enable location access to improve your driving and qualify for discounts!</string>
+    <string name="gps_permission_mileage_description">Enable location access to improve your driving and qualify for low mileage benefits!</string>
+    <string name="gps_permission_why"><u>Why do we need this?</u></string>
+    <string name="gps_permission_dialog_title">Your Location</string>
+    <string name="gps_permission_dialog_description">%s uses your location data to accurately measure your trips and provide you with mapped views of your driving routes.</string>
+    <string name="gps_permission_rewards_dialog_description">%s uses your location to accurately measure your trips, provide you with mapped views of your driving routes, and provide your rewards.</string>
+    <string name="gps_permission_discount_dialog_description">%s uses your location to accurately measure your trips, provide you with mapped views of your driving routes, and provide your discount.</string>
+    <string name="gps_permission_mileage_dialog_description">%s uses your location to accurately measure your trips, provide you with mapped views of your driving routes, and provide your  low mileage benefits.</string>
+
+    <string name="gps_permission_settings">Settings</string>
+    <string name="gps_permission_you_denied">Can\'t Request Permission</string>
+    <string name="gps_permission_you_denied_description">You selected \"Never ask again\" last time we asked for Location permissions. Please go to Settings and turn the location permission on for %s.</string>
+    <string name="onboarding_permission_step"><b>Step %1$d / %2$d</b></string>
+    <string name="gps_permission_title"><![CDATA[<b>%1$s requires your location all the time</b>]]></string>
+    <string name="gps_permission_allow_all_description">
+        <![CDATA[
+        To record trips, %1$s needs location access both while using the app and when the app is in the background. Without location set to <b>\"Allow all the time\"</b>, %2$s will not work.
+        ]]>
+    </string>
+    <string name="gps_permission_allow_all_discount_description">
+        <![CDATA[
+        Love a good discount? %1$s needs location access while using the app and when it is in the background to automatically record your drives. Safe drives can save you money!
+        <br>On the next screen, please select <b>\"Allow all the time\"</b>.</br>
+        ]]>
+    </string>
+    <string name="gps_permission_allow_all_rewards_description">
+        <![CDATA[
+        Want your rewards? %1$s needs location access while using the app and when it is in the background to automatically record your drives. Safe drives can earn you prizes!
+        <br>On the next screen, please select <b>\"Allow all the time\"</b>.</br>
+        ]]>
+    </string>
+    <string name="gps_permission_allow_all_mileage_description">
+        <![CDATA[
+        Don’t miss out! %1$s needs location access while using the app and when it is in the background to automatically record your drives and provide low mileage benefits.
+        <br>On the next screen, please select <b>\"Allow all the time\"</b>.</br>
+        ]]>
+    </string>
+    <string name="gps_permission_more_info"><u>More Information</u></string>
+    <string name="gps_permission_dialog_more_info_text">%s uses your location data to accurately measure your trips and provide you with mapped views of your driving routes. Without it, the app will not function properly.</string>
+    <string name="gps_permission_dialog_more_info_discount_text">%s uses your location data to accurately measure your trips and provide you with mapped views of your driving routes. This is required to determine your discount.</string>
+    <string name="gps_permission_dialog_more_info_reward_text">%s uses your location data to accurately measure your trips and provide you with mapped views of your driving routes. This is required to provide your rewards.</string>
+    <string name="gps_permission_dialog_more_info_mileage_text">%s uses your location data to accurately measure your trips and provide you with mapped views of your driving routes. This is required for your low mileage benefits.</string>
+    <string name="gps_permission_dialog_more_info_text_v2">%s uses your location data to accurately measure your trips and provide you with mapped views of your driving routes. Without it, the app will not work.</string>
+    <string name="gps_permission_acknowledge">Got it!</string>
+
+    <!-- Activity Permission Required -->
+    <string name="activity_permission_title"><![CDATA[<b>%1$s requires access to your activity permissions</b>]]></string>
+    <string name="activity_permission_title_v2">Don\'t Miss Your Trips</string>
+    <string name="activity_permission_description">
+        <![CDATA[
+        %1$s uses your activity data to accurately detect that you are moving in a vehicle rather than walking or running. To record your drives and get your score, you must select <b>\"Allow\"</b> on the next screen.
+        ]]>
+    </string>
+    <string name="activity_permission_description_without_score_text">
+        <![CDATA[
+        %1$s uses your activity data to accurately detect that you are moving in a vehicle rather than walking or running. To record your drives, you must select <b>\"Allow\"</b> on the next screen.
+        ]]>
+    </string>
+    <string name="activity_permission_discount_description">
+        <![CDATA[
+        %1$s uses your activity data to accurately detect that you are moving in a vehicle rather than walking or running. To record your drives and qualify for discounts, you must select <b>\"Allow\"</b> on the next screen.
+        ]]>
+    </string>
+    <string name="activity_permission_reward_description">
+        <![CDATA[
+        %1$s uses your activity data to accurately detect that you are moving in a vehicle rather than walking or running. To record your drives and get your rewards, you must select <b>\"Allow\"</b> on the next screen.
+        ]]>
+    </string>
+    <string name="activity_permission_mileage_description">
+        <![CDATA[
+        %1$s uses your activity data to accurately detect that you are moving in a vehicle rather than walking or running. To record your drives and qualify for low mileage benefits, you must select <b>\"Allow\"</b> on the next screen.
+        ]]>
+    </string>
+
+    <string name="activity_permission_description_v2">%1$s uses your activity data to accurately detect that you are moving in a vehicle rather than walking or running. To record your drives and get your score, you must select %2$s on the next screen.</string>
+    <string name="activity_permission_description_v2_without_score_text">%1$s uses your activity data to accurately detect that you are moving in a vehicle rather than walking or running. To record your drives, you must select %2$s on the next screen.</string>
+    <string name="activity_permission_discount_description_v2">%1$s uses your activity data to accurately detect that you are moving in a vehicle rather than walking or running. To record your drives and qualify for discounts, you must select %2$s on the next screen.</string>
+    <string name="activity_permission_reward_description_v2">%1$s uses your activity data to accurately detect that you are moving in a vehicle rather than walking or running. To record your drives and get your rewards, you must select %2$s on the next screen.</string>
+    <string name="activity_permission_mileage_description_v2">%1$s uses your activity data to accurately detect that you are moving in a vehicle rather than walking or running. To record your drives and qualify for low mileage benefits, you must select %2$s on the next screen.</string>
+    <string name="activity_permission_description_allow">Allow</string>
+    <string name="activity_permission_dialog_title">Physical Activity Permission</string>
+    <string name="activity_permission_more_info"><u>More Information</u></string>
+    <string name="activity_permission_dialog_more_info_text">%s uses your motion data to accurately detect that you are moving in a vehicle rather than walking or running. Without it, the app will not function properly.</string>
+    <string name="activity_permission_dialog_more_info_discount_text">%s uses your motion data to accurately detect that you are moving in a vehicle rather than walking or running. This is required to determine your discount.</string>
+    <string name="activity_permission_dialog_more_info_reward_text">%s uses your motion data to accurately detect that you are moving in a vehicle rather than walking or running. This is required to provide your rewards.</string>
+    <string name="activity_permission_dialog_more_info_mileage_text">%s uses your motion data to accurately detect that you are moving in a vehicle rather than walking or running. This is required for your low mileage benefits.</string>
+    <string name="activity_permission_dialog_more_info_text_v2">%s uses your motion data to accurately detect that you are moving in a vehicle rather than walking or running. Without it, the app will not work.</string>
+    <string name="activity_permission_acknowledge">Got it!</string>
+
+    <!-- Contact Search -->
+    <string name="contactsSearchHint">Search</string>
+    <string name="contactsNoContactsFound">No contacts found</string>
+    <string name="contactsNoContactMatching">No contact found matching:</string>
+    <string name="contactsSendThemInvite">Send them an email invite?</string>
+
+    <!-- Trial Expired -->
+    <string name="trialExpiredTitle">Competition Expired</string>
+    <string name="trialExpiredBody">We hope you enjoyed your trial experience.\nUnfortunately, your trial has expired.</string>
+    <string name="trialExpiredTitleEmailUs">Contact support</string>
+
+
+    <!-- FAQ list titles -->
+    <string name="faq_services">Services</string>
+    <string name="faq_installation">Installation</string>
+    <string name="faq_data">Data</string>
+    <string name="faq_scoring">Scoring</string>
+    <string name="faq_privacy">Privacy</string>
+    <string name="faq_no_data">No data. Check your internet connection.</string>
+
+    <!-- Contact us strings -->
+    <string name="contactUsByEmailSentOK">Thank you for your feedback</string>
+    <string name="contactUsByEmailHeader">How can we help you?</string>
+    <string name="contactUsByEmailBody">Please write in the space below (2000 character maximum) and press send.  A member of our team will respond shortly.</string>
+    <string name="contactUsByEmailSend">send</string>
+    <string name="contactUsByEmailNoMessageWarning">Please enter a message</string>
+    <string name="feedbackTextHint">Let us know your feedback so we can make improvements…</string>
+    <string name="feedbackScreenHeader">How can we make your experience better?</string>
+
+    <!-- Login strings -->
+    <string name="loginAuthEnterPin">Please check your e-mail for a PIN code and enter it below.</string>
+    <string name="loginAuthPinHint">e.g., 1234 </string>
+    <string name="loginAuthInvalidPin">Sorry, please enter a valid PIN code.</string>
+
+    <!-- AppServer Error Strings -->
+    <string name="appserver_error_code_0">Sorry! We had an error communicating with our server.</string>
+    <string name="appserver_error_code_1">Sorry! This email is already in use.</string>
+    <string name="appserver_error_code_2">Sorry! This device has sent too many registration requests recently.  Please try again later or contact customer support.</string>
+    <string name="appserver_error_code_3">Sorry! We could not find a matching account.</string>
+    <string name="appserver_error_code_4">This PIN code has expired. Please generate a new one.</string>
+    <string name="appserver_error_code_5">Sorry! The PIN code you entered is incorrect.</string>
+    <string name="appserver_error_code_7">Sorry! This username is already in use.</string>
+    <string name="appserver_error_code_8">We\'ve encountered an unknown error. Please try again, and if the problem persists, contact support.</string>
+    <string name="appserver_error_code_9">Unimplemented method</string>
+    <string name="appserver_error_code_10">Not authorized</string>
+    <string name="appserver_error_code_11">Not supported</string>
+    <string name="appserver_error_code_12">Internal server error</string>
+    <string name="appserver_error_code_13">Your email address appears to be invalid because it bounced</string>
+    <string name="appserver_error_code_14">This email address has been subject to a complaint and cannot be used</string>
+    <string name="appserver_error_code_15">We were not able to request a quote at this time</string>
+    <string name="appserver_error_code_16">Internal server error</string>
+    <string name="appserver_error_code_18">We were not able to request a quote at this time</string>
+    <string name="appserver_error_code_19">This token is invalid.  Please email your CMT contact.</string>
+    <string name="appserver_error_code_20">We were not able to fetch your profile at this time.  Please try again later.</string>
+    <string name="appserver_error_code_21">We were not able to update your profile at this time.  Please try again later.</string>
+    <string name="appserver_error_code_22">We are having a network issue.  Please try again later.</string>
+    <string name="appserver_error_code_23">This impact alert does not exist.</string>
+    <string name="appserver_error_code_24">Sorry! This account has already been activated.</string>
+    <string name="appserver_error_code_25">Sorry! This enrollment code is invalid.</string>
+    <string name="appserver_error_code_26">Internal server error. Please try again later.</string>
+    <string name="appserver_error_code_27">Your trial has expired</string>
+    <string name="appserver_error_code_28">This tag is already linked to another user.  Please try with a different tag. Contact support@cmtelematics.com if you believe you have received this message in error.</string>
+    <string name="appserver_error_code_29">This tag is unknown to CMT.  Please try with a different tag. Contact support@cmtelematics if you believe you have received this message in error.</string>
+    <string name="appserver_error_code_30">This policy number and driver\'s license number are already registered.</string>
+    <string name="appserver_error_code_31">Sorry! This mobile number is already in use.</string>
+    <string name="appserver_error_code_custom">Sorry! This mobile number is already in use.</string>
+    <!-- Make sure a related error code exists in AppServerErrorCode enum -->
+
+    <string name="network_error_body">Please check your internet connection.</string>
+    <string name="network_error_title">Network error</string>
+    <string name="network_error_body_long">Currently you have no internet access. Please try again when you have cellular or Wi-Fi service.</string>
+
+    <!-- Complete Profiles -->
+    <string name="complete_profile_header">One More Step</string>
+    <string name="complete_profile_header_bold">Choose your username</string>
+    <string name="complete_profile_header_regular">Your profile is almost complete. This is the name that will appear on your leaderboard.</string>
+
+    <!-- Dashboard -->
+    <string name="date">date</string>
+    <string name="most_recent">Latest Scored Trip</string>
+    <string name="live_now">drive now, text later</string>
+    <string name="no_achievements">no badges</string>
+    <string name="your_rank">your rank</string>
+    <string name="no_rank">no rank</string>
+    <string name="dash_streak_body_no_score">Start driving\n to see your score!</string>
+    <string name="dash_streak_body_no_trips">Start driving\n to see your score!</string>
+    <string name="dash_last_trip_no_trips">Want to see your score?\nStart driving!</string>
+    <string name="title_leaderboard">Leaderboard</string>
+    <string name="you_vs_everyone">You vs Everyone</string>
+    <string name="standings">Standings</string>
+    <string name="you_vs_friends">You vs Friends</string>
+    <string name="your_friends">Your Rank</string>
+    <string name="add_more_friends">Add more drivers to your leaderboard. Invite friends to compete for the safest driver.</string>
+    <string name="invite_friends">Invite Friends</string>
+    <string name="achievements_dash_title">Achievements</string>
+    <string name="achievements_text_1">No phone distractions in the past 250 miles!</string>
+    <string name="achievements_text_1_no_data">You haven’t earned any badges yet.</string>
+    <string name="undistractions">Focus</string>
+    <string name="driving_challenge">Driving Challenge</string>
+    <string name="your_tickets">your tickets</string>
+    <string name="want_to_win">Want to win prizes?</string>
+    <string name="keep_driving">Keep driving!</string>
+    <string name="click_here">Click here for details</string>
+    <string name="dash_streak_subtitle_bad">distracted by your phone?</string>
+    <string name="dash_streak_content_bad">No phone usage for</string>
+    <string name="dash_streak_subtitle_no_data">not enough trips</string>
+    <string name="dash_streak_subtitle_current_streak">keep it up!</string>
+    <string name="dash_streak_content_current_streak">No phone usage for</string>
+    <string name="dash_streak_content_no_trips">no trips</string>
+    <string name="dash_streak_body_one_trip">trip</string>
+    <string name="dash_streak_body_multiple_trips">trips</string>
+    <string name="dashInfoTagIsConnected">Tag connected</string>
+    <string name="dashFriendRequestTitle">Friend request</string>
+    <string name="dashFriendRequestBody">Connect with %s to see who is the safer driver</string>
+    <string name="dashFriendRequestAccept">Accept</string>
+    <string name="dashFriendRequestIgnore">Ignore</string>
+    <string name="dash_your_score">Two Week Score</string>
+    <string name="dash_email_dialog_prompt">Enter your email address so that you’ll always have access to your driving scores.</string>
+    <string name="dash_email_dialog_hint">Email address</string>
+    <string name="dash_email_dialog_invalid">Email has been used or is invalid.</string>
+    <string name="dash_email_dialog_success">Email successfully updated.</string>
+    <string name="dash_email_dialog_failure">Couldn\'t set email. Please try again later.</string>
+    <string name="dash_email_dialog_promo_prompt">Enter your email below to\nget your discount code.</string>
+    <string name="dash_streak_best">Best</string>
+    <string name="dash_streak_current">Current</string>
+    <plurals name="dash_streak_numtrips">
+        <item quantity="one">%1$d Trip</item>
+        <item quantity="other">%1$d Trips</item>
+    </plurals>
+    <string name="dash_streak_no_distraction">No Phone Use</string>
+    <string name="dash_streak_no_speeding">No Speeding</string>
+    <string name="dash_streak_no_braking">No Braking</string>
+    <string name="dash_streak_no_acceleration">No Harsh Acceleration</string>
+    <string name="dash_streak_no_cornering">No Hard Cornering</string>
+    <!-- Fleet -->
+    <string name="you_dashboard">You</string>
+    <string name="fleet_dashboard">Team\u0020\u0020</string>
+
+    <!--  Cumulative score switch  -->
+    <string name="cumulative_dashboard">12 Month Score</string>
+    <string name="two_week_dashboard">2 Week Score</string>
+
+    <!-- Streaks -->
+    <string name="streaks_distance_time_km">%1$d km | %2$d min</string>
+    <string name="streaks_distance_time_miles">%1$d mi | %2$d min</string>
+    <string name="streaks_to">
+        <![CDATA[
+        %1$s to %2$s
+        ]]>
+    </string>
+    <string name="streaks_today">Today</string>
+    <string name="streaks_no_best">You haven\'t had a best yet!</string>
+    <string name="streaks_no_current">You do not have a current streak</string>
+
+    <!-- Leaderboard -->
+    <string name="leaderboardNoFriends">You don\'t have any friends yet!</string>
+    <string name="leaderboardNoStandings">Not yet ranked</string>
+    <string name="leaderboardHeaderTitle">Your Friends</string>
+    <string name="leaderboardHeaderRank">Rank</string>
+    <string name="leaderboardHeaderName">Name</string>
+    <string name="leaderboardHeaderScore">Score</string>
+    <string name="leaderboardRankingCategoryExample">You vs. Everyone</string>
+    <string name="leaderboardRankingRatingExample">No ranking yet</string>
+    <string name="leaderboardRankingCategoryPercentageTop">Top %s%%</string>
+    <string name="leaderboardRankingCategoryPercentageBottom">Bottom %s%%</string>
+    <string name="leaderboardRankingCategoryNoutOfM">%1$s out of %2$s</string>
+    <string name="leaderboardRankingEmpty" translatable="false">- -</string>
+    <string name="leaderboardAchievements">Achievements</string>
+    <string name="leaderboardNoAchievements">No Achievements</string>
+    <string name="leaderboard_fetch_error">Sorry, we couldn\'t retrieve your Leaderboard at this time. Please try again later.</string>
+    <string name="leaderboard_fetch">Retrieving Leaderboard</string>
+    <string name="leaderboard_item_miles">%1$d+ mi</string>
+    <string name="leaderboard_item_low_miles">&lt;25 mi</string>
+    <string name="leaderboard_item_kilometers">%1$d+ km</string>
+    <string name="leaderboard_item_low_kilometers">&lt;40 km</string>
+    <string name="leaderboard_low_mileage_barrier">Not enough driving</string>
+    <string name="leaderboard_rank">Rank</string>
+    <string name="leaderboard_state">State</string>
+    <string name="leaderboard_name">Name</string>
+    <string name="leaderboard_score">Score</string>
+    <string name="leaderboard_username_dialog_prompt">Your username is %s. Customize it below!</string>
+    <string name="leaderboard_username_dialog_hint">New username</string>
+    <string name="leaderboard_username_dialog_invalid">Username has been taken or is invalid.</string>
+    <string name="leaderboard_username_dialog_success">Username changed!</string>
+    <string name="leaderboard_username_dialog_failure">Couldn\'t change username. Please try again later.</string>
+    <string name="leaderboards_title">Your Leaderboards</string>
+    <string name="leaderboard_ranking_no_total">You are ranked #%1$d</string>
+    <string name="leaderboard_ranking">You are ranked #%1$d out of %2$d</string>
+    <string name="leaderboard_not_ranked">Do you want to top the Leaderboard? Start driving!</string>
+    <string name="leaderboard_user_achievements_label">Recent Achievements</string>
+
+    <!-- Badges -->
+    <string name="badge_title_not_available">Not available</string>
+
+    <!-- Error Strings -->
+    <string name="error_summary_header">The following field contains an error: </string>
+    <string name="username_taken">Username not available</string>
+    <string name="missingOrInvalidEmail">Enter a valid email (example: name@company.com).</string>
+    <string name="invalidEmail">Enter a valid email</string>
+    <string name="missingOrInvalidFirstName">Enter a username of at least 4 characters.</string>
+    <string name="profileUpdateSuccess">Changes to your profile have been saved.</string>
+
+    <!-- More / extra section -->
+    <string name="more_drive_details">Drive Details</string>
+    <string name="more_social_details">Social</string>
+    <string name="more_app_details">App Details</string>
+    <string name="more_view_family">Family</string>
+    <string name="more_view_vehicles">@string/menu_vehicles</string>
+    <string name="more_leaderboard">@string/menu_leaderboard</string>
+
+    <!-- Personal Insights -->
+    <string name="personal_insights_load_error">Unable to display Personal Insights</string>
+
+    <!--Other Strings -->
+    <string name="sorry">Sorry</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="rate">Rate</string>
+    <string name="remind_me_later">Remind me later</string>
+
+    <!--Driving Tips -->
+    <string name="top_title_tip_1">Tip 1</string>
+    <string name="top_title_tip_2">Tip 2</string>
+    <string name="top_title_tip_3">Tip 3</string>
+    <string name="top_title_tip_4">Tip 4</string>
+    <string name="top_title_tip_5">Tip 5</string>
+    <string name="top_title_tip_6">Tip 6</string>
+    <string name="top_title_tip_7">Tip 7</string>
+    <string name="top_title_tip_8">Tip 8</string>
+    <string name="top_title_tip_9">Tip 9</string>
+    <string name="top_title_tip_10">Tip 10</string>
+
+    <string name="main_title_no_tips">No tips available</string>
+    <string name="main_title_tip_1">Avoid using your phone while driving</string>
+    <string name="main_title_tip_2">Brake Gradually</string>
+    <string name="main_title_tip_3">Ease Into Turns</string>
+    <string name="main_title_tip_4">Accelerate Gently</string>
+    <string name="main_title_tip_5">Slow Down</string>
+    <string name="main_title_tip_6">Careful Driving at Night</string>
+
+    <string name="body_no_tips">Start driving to see Driving Tips.</string>
+    <string name="close_tips">Close tips</string>
+
+    <!-- Invite Friends -->
+    <string name="contacts">Contacts</string>
+    <string name="email">Email address</string>
+
+    <string name="contactsInvite">Invite</string>
+    <string name="contactsInvitedSuccessTitle">Invitation sent</string>
+    <string name="contactsInvitedSuccessBody">Successfully invited %s</string>
+    <string name="contactsInvitedErrorTitle">Invitation error</string>
+    <string name="contactsInvitedErrorBody">Could not invite %s\nPlease try again later.</string>
+    <string name="inviteContact">Invite contact?</string>
+    <string name="inviteChooseEmail">Choose email</string>
+    <string name="inviteChooseEmailOrPhone">Choose email or phone</string>
+    <string name="inviteChoosePhone">Choose phone</string>
+    <string name="inviteDirectDialogPositiveButton">Invite</string>
+    <string name="inviteDirectDialogTitle">Invite by e-mail</string>
+    <string name="missingApplication">Missing application</string>
+
+    <string name="contactsSendEmailInviteDialogTitle">Send e-mail invite</string>
+    <string name="contactsSendEmailInviteDialogText">An invitation will be sent to the e-mail address you enter below</string>
+
+    <string name="inviteSending">Sending...</string>
+    <string name="contactsPermissionRequired">Contacts Permission Required</string>
+
+
+    <!-- Powered by CMT -->
+    <string name="poweredByCMT">Powered by Cambridge Mobile Telematics</string>
+    <string name="poweredByLogoCMT">Powered by</string>
+    <string name="poweredByLogoBrand"></string>
+
+    <!-- Profile Photo Strings -->
+    <string name="delete_profile_picture_dialog_title">Delete your profile picture?</string>
+    <string name="profile_picture_delete">Delete Picture</string>
+    <string name="picture_deleted">Profile Picture Deleted</string>
+    <string name="profilePhotoUploadFailureTitle">Error</string>
+    <string name="profilePhotoUploadFailureBody">Sorry! Please try changing your profile photo again later</string>
+    <string name="profile_photo_error">Error using photo, please try another</string>
+    <string name="profile_source_error">Could not get photo, please try a different source</string>
+    <string name="saving_image">Saving image</string>
+    <string name="preparing_card">Preparing card</string>
+    <string name="no_storage_card">No storage card</string>
+    <string name="not_enough_space">Not enough space</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="profile_picture">Edit Photo</string>
+    <string name="photo_permission_rejected_warning">External Storage Permission Required</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="select_photo">Select Photo</string>
+    <string name="remove_photo">Remove Photo</string>
+
+    <!-- Elapsed Time -->
+    <string name="elapsedSecondsAgo">seconds ago</string>
+    <string name="elapsedMinutesAgo">minutes ago</string>
+    <string name="elapsedHoursAgo">hours ago</string>
+    <string name="elapsedDaysAgo">days ago</string>
+
+    <!-- Share Button -->
+    <string name="share">Share</string>
+    <string name="menu_skip">Skip</string>
+
+    <!-- Dialog Buttons -->
+    <string name="submit">Submit</string>
+    <string name="skip">Skip</string>
+
+    <!-- Family Sharing -->
+    <string name="default_new_family_name">Family</string>
+    <string name="dash_card_title_family_sharing_info">Family Sharing</string>
+    <string name="dash_card_title_family_sharing_view">Family</string>
+    <string name="dash_card_family_view_button">View Family</string>
+    <string name="dash_card_family_more_info_button">Go</string>
+    <string name="dash_card_family_cancel_button">Cancel</string>
+    <string name="dash_card_family_decision_prompt">Did you know you can create or join a family group to share scores, trends, streaks, trips, and current location with your family?</string>
+    <string name="family_screen_title">Family</string>
+    <string name="family_admin_title">FAMILY ADMIN</string>
+    <string name="family_invitations_fragment_title">Welcome</string>
+    <string name="family_invitations_join_group_button">Join Group</string>
+    <string name="family_invitations_ignore_invitation_link">No thanks, ignore invitation</string>
+    <string name="family_invitations_sharing_description">You will be sharing your score, streaks, trends, trips, and the last location you drove.</string>
+    <!-- Do not remove the replacement fields without changing dependent code that tries to fill them-->
+    <string name="family_invitations_greeting">
+        <![CDATA[
+    <b>Hi! You have been invited by <font color=\'%1$s\'>%2$s</font> to join their <font color=\'%1$s\'>%3$s</font> group.</b>
+    ]]>
+    </string>
+    <string name="family_invitations_join_group_confirmation_dialog_message">If you join this new family, you will be removed from your current family.  Are you sure you want to join?</string>
+    <string name="family_invitations_join_group_confirmation_dialog_message_admin">If you join this new family, your current family will be disbanded.  Are you sure you want to join?</string>
+    <string name="family_invitations_join_group_confirmation_dialog_title">Join Group</string>
+    <string name="family_invitations_join_group_confirmation_dialog_positive">Join</string>
+    <string name="family_invitations_join_group_confirmation_dialog_negative">Cancel</string>
+    <string name="family_invitations_reject_invitation">Rejected %s\'s invitation</string>
+
+    <string name="family_invitations_successfully_join">Successfully joined %s.</string>
+    <string name="family_invitations_group_type_label">Family</string>
+    <string name="create_family_notice_fragment_title">Family</string>
+    <string name="create_family_notice_title">Create a Family</string>
+    <string name="create_family_notice">Did you know you can create a family group to share scores, streaks, trends, trips, and current location with your family?</string>
+    <string name="create_family_reject_button">No thanks, not at this time</string>
+    <string name="create_family_accept_button">Create family</string>
+    <string name="family_invite_by_code_header_text">Know someone using %1$s? Share this family code to share trips &amp; scores. Let the games begin!</string>
+
+    <!-- Family Group page -->
+    <string name="family_loading_notification">Retrieving group data</string>
+    <string name="family_management_multi_member_pin_dialog_title">Multiple Family Members</string>
+    <string name="family_management_no_location_geocode_text">Location not available</string>
+    <string name="family_members_fragment_title">Family</string>
+    <string name="family_management_member_item_delete">Delete</string>
+    <string name="family_management_add_member_dialog_title">Invite a new family member</string>
+    <string name="family_management_add_member_dialog_prompt">Please enter a username to invite a family member</string>
+    <string name="family_management_add_member_dialog_username_hint">Username</string>
+    <string name="family_management_add_member_dialog_accept">Send</string>
+
+    <string name="family_management_menu_leave_group">Leave Group</string>
+    <string name="family_management_leave_group_dialog_title">Leave this Family</string>
+    <string name="family_management_remove_member_dialog_title">Remove member?</string>
+    <string name="family_management_remove_member_dialog_message">Are you sure you would like to remove %s from your family?</string>
+    <string name="family_management_remove_member_dialog_confirmation_button">Remove</string>
+
+    <string name="family_management_leave_group_dialog_message_admin">As the admin, removing yourself from your family will cause the family to be deleted. Are you sure you would like to proceed?</string>
+    <string name="family_management_leave_group_dialog_message_member">Are you sure you want to leave %s\'s family?</string>
+    <string name="family_management_leave_group_dialog_confirmation_button">Leave</string>
+
+    <string name="family_management_data_sharing_title">Manage Family Sharing</string>
+    <string name="family_management_location_time_absolute_format">Updated at %1$s, %2$s</string>
+    <string name="family_management_location_time_relative_format">Updated %1$s</string>
+    <string name="family_stop_sharing_dialog_title">Stop sharing your location and trip data</string>
+    <string name="family_stop_sharing_dialog_message">Your family will no longer be able to see your location and trip data.</string>
+    <string name="family_start_sharing_dialog_title">Share your location and trip data?</string>
+    <string name="family_start_sharing_dialog_message">Your family will be able to see your location and trip data.</string>
+
+    <string name="family_location_not_available_label">@string/family_management_no_location_geocode_text</string>
+    <string name="family_location_not_shared_label">Location not shared</string>
+    <string name="family_stop_sharing_button_label">Stop sharing</string>
+    <string name="family_start_sharing_button_label">Start sharing</string>
+
+    <string name="family_sharing_error_title">Error</string>
+    <string name="family_sharing_error_message">There was a problem completing your sharing request. Please try again later.</string>
+
+
+
+    <!-- Family Profile page -->
+    <string name="family_member_profile_loading_fragment_title">Loading Profile...</string>
+    <string name="family_profile_scored_miles">Scored Miles</string>
+    <string name="family_profile_scored_km">Scored Km</string>
+    <string name="family_profile_scored_trips">Scored Trips</string>
+    <string name="family_profile_overall_score">Overall\nScore</string>
+    <string name="family_profile_trends_tab">Trends</string>
+    <string name="family_profile_streaks_tab">Streaks</string>
+    <string name="family_profile_trips_tab">Trips</string>
+    <string name="family_profile_trips_not_shared_text">Trip data not shared.</string>
+
+    <!-- Family Management "Popup" messages -->
+
+    <!-- Internal Errors -->
+    <!-- This text will be used as a prefix for the detailed error messages below-->
+    <string name="family_error_generic_system">Oops!  There was a system error.</string>
+    <string name="family_error_no_network">Network connection error.</string>
+    <string name="family_error_cannot_create_family">Family could not be created at this time.</string>
+
+    <string name="family_error_join_non_existent_group">Could not join %s\'s family.  This family no longer exists.</string>
+    <string name="family_error_failed_synch_on_management_page">%s.  Family details are not available at this time.</string>
+    <string name="family_error_leave_group">%1$s  You cannot be removed from %2$s\'s family at this time.</string>
+    <string name="family_error_delete_group">%s  Your family cannot be deleted at this time.</string>
+    <string name="family_error_remove_other">%1$s  You cannot remove %2$s at this time.</string>
+    <string name="family_error_sending_invite_due_to_network">%s  Family member could not be added at this time.</string>
+    <string name="family_error_accepting_invitation">%1$s Cannot join %2$s at this time.</string>
+    <string name="family_management_geocode_error">Errors retrieving member location</string>
+    <string name="family_error_profile_show_trip">%s  Cannot show drive this this moment.</string>
+    <string name="family_error_profile_header">%s  Member details are not available at this time.</string>
+
+    <!-- User action error messages -->
+    <string name="family_invitations_reject_non_existent_invitation">This invitation has expired</string>
+    <string name="family_management_invalid_username_error">Username not found.  Please check your spelling and try again.</string>
+    <string name="family_management_send_invitation_invitee_error">Cannot invite %s. User already invited.</string>
+    <string name="family_management_send_invitation_blank_username_error">Cannot send an invitation with blank username</string>
+    <string name="family_invitations_error_reject_invitation">%s  Invitation was not rejected.</string>
+
+    <!-- Family management success messages -->
+    <string name="family_management_send_invitation_success">Invitation sent.</string>
+    <string name="family_management_delete_family_success">Family successfully deleted.</string>
+    <string name="family_management_leave_family_success">Successfully left %s\'s family.</string>
+    <string name="family_management_remove_member_success">Successfully removed %s.</string>
+
+    <!-- Family Management User message -->
+    <string name="family_management_send_invitation_general_error">There were errors sending invitation</string>
+    <string name="family_profile_no_trips_prompt">No trips available yet for %s</string>
+    <string name="family_profile_no_trends_prompt">No trends available yet for %s</string>
+    <string name="family_profile_no_streaks_prompt">No streaks available yet for %s</string>
+    <string name="hint_zip_code" translatable="false">e.g. 01234</string>
+
+    <!-- family invitations -->
+    <string name="invite_members_fragment_title">Invite New Members</string>
+    <string name="invite_by_code_tab_label">Code</string>
+    <string name="invite_by_username_tab_label">Username</string>
+    <string name="family_invite_by_code_info">You can invite new family members two ways: with an invite code or by typing in their username.</string>
+    <string name="share_code_button_title">Share code</string>
+    <string name="invite_username_button_title">Send Invite</string>
+    <string name="invite_by_code_description">
+        <![CDATA[
+        Share this code with people you want in your Family group.
+        This code will expire on <b><font color=\'%1$s\'>%2$s</font></b> <br/><br/> <b><font color=\'%1$s\'>%3$s</font></b> can use this code.
+    ]]></string>
+    <string name="invite_by_username_desc">Enter a username to invite a family member.</string>
+
+    <string name="invite_by_username_edit_hint">Username</string>
+    <string name="invite_by_code_page_title">Invite by Code</string>
+    <string name="invite_by_username_page_title">Invite by Username</string>
+    <string name="invite_by_code_send_text">Hi! %1$s has invited you to join their family on %2$s. If you have the app installed, tap on Family on the dashboard, and enter the code %3$s to join the family and share driving scores!</string>
+    <string name="invitation_code_remaining_usage_singlular">1 more person</string>
+    <string name="invitation_code_remaining_usage_plural">%d more people</string>
+    <string name="invitation_code_expiration_date_format">%1$Tb %1$td, %1$tY at %1$tr</string>
+    <string name="invitation_code_expiration_date_ISOformat">%1$TY-%1$tm-%1$td at %1$tT</string>
+    <string name="invitation_code_retrieval_error">There was an error retrieving your invitation code</string>
+
+    <string name="family_decision_fragment_title">Family</string>
+    <string name="family_decision_screen_title">What would you like to do?</string>
+    <string name="family_decision_screen_desc">You can only be in 1 family at a time.</string>
+    <string name="family_decision_screen_join_label">join</string>
+    <string name="family_decision_screen_create_label">create</string>
+
+    <string name="family_join_with_code_fragment_title">Join a Family</string>
+    <string name="family_join_with_code_title">Enter Invite Code</string>
+    <string name="family_join_with_code_desc">Enter the invite code your Family Admin sent you below. If you are already part of a family, this will remove you from that family.</string>
+
+    <string name="family_join_with_code_join_button">Join</string>
+    <string name="family_info">Share scores &amp; trips with family!</string>
+
+    <!-- Family V2 Error Messages -->
+
+    <string name="family_create_join_multiple_group_error">In order to create or join another family you must leave your existing one</string>
+    <string name="family_generic_error_dialog_title">There were problems...</string>
+    <string name="family_generic_error_dialog_body">Could not complete requested action.</string>
+    <string name="family_dialog_error_acknowledge_button">Ok</string>
+
+    <!-- Family server error translations -->
+    <string name="family_error_desc_INVITATION_CODE_EXPIRED">Cannot join group due to expired invitation code.</string>
+    <string name="family_error_title_INVITATION_CODE_EXPIRED">Invitation Code Expired</string>
+    <string name="family_error_desc_INVITATION_CODE_LIMIT_EXCEEDED">This invitation code has exceeded its usage limit.</string>
+    <string name="family_error_title_INVITATION_CODE_LIMIT_EXCEEDED">Usage limit exceeded</string>
+
+    <string name="family_error_desc_INVALID_INVITATION_CODE">This invitation code cannot be used.</string>
+    <string name="family_error_title_INVALID_INVITATION_CODE">Invalid invitation code</string>
+
+    <!-- Mobile UI config-->
+    <string name="config_error_notification">Unable to configure application.  Please try again later.</string>
+
+    <!-- Rewards -->
+    <string name="rewards_more_item_title">Rewards</string>
+    <string name="dashboard_card_rewards_no_redeem">Drive well to earn rewards!</string>
+
+    <!-- Mobile Config Error Screen -->
+    <string name="mobile_config_screen_title">Oops!</string>
+    <string name="mobile_config_screen_message">We\'re sorry but the app was not able to retrieve the correct configuration.  Please tap the button below to try again.</string>
+    <string name="mobile_config_screen_retry_btn_label">Retry</string>
+    <string name="mobile_config_screen_quit_link"><![CDATA[
+        <font color=\'#1C77C3\'><u>Close app and try again later.</u></font>
+    ]]></string>
+    <string name="default_loading_label">Loading...</string>
+    <string name="fetching_config_loading_label">Trying to configure app</string>
+    <string name="fetching_config_error_dialog_title">Errors configuring app</string>
+    <string name="fetching_config_error_dialog_ok_btn">Ok</string>
+    <string name="fetching_config_error_message">We were unable to correctly configure the app.</string>
+
+    <string name="search_vehicles_title">Search Vehicles</string>
+    <string name="search_vehicles_description">Please enter the Fleet ID or license plate number for the vehicle you are installing the tag in.</string>
+
+    <string name="auto_authorization_failed">Auto-authorization failed.</string>
+    <string name="vehicle_search_generic_error">There was an error retrieving results, please try again</string>
+
+    <string name="rewards_save_email_title">One last step!</string>
+    <string name="rewards_save_email_description">Please provide the email where we should deliver your rewards!</string>
+    <string name="rewards_save_email_hint">Email</string>
+    <string name="rewards_save_email_positive">Save Email</string>
+    <string name="rewards_save_email_negative">Cancel</string>
+    <string name="welcome_in_app_title">Great Job!</string>
+    <string name="welcome_in_app_message">message</string>
+    <string name="welcome_dialog_header">All set!</string>
+    <string name="welcome_dialog_message">Take your first drive and you\'ll start to see scores in your dashboard.</string>
+    <string name="welcome_dialog_ack_button">Continue</string>
+
+    <!-- Monthly miles -->
+    <string name="dash_miles_left">Miles\nLeft</string>
+    <string name="dash_miles_used">Miles\nUsed</string>
+    <string name="dash_km_left">Km\nLeft</string>
+    <string name="dash_km_used">Km\nUsed</string>
+    <string name="dash_card_monthly_miles_title">Monthly Miles: %s</string>
+    <string name="dash_card_monthly_km_title">Monthly Km: %s</string>
+    <string name="dash_card_monthly_miles_percentage_left">% left</string>
+    <string name="dash_card_monthly_miles_left">miles left</string>
+    <string name="dash_card_monthly_miles_total_mi">%1$d mi used</string>
+    <string name="dash_card_monthly_miles_total_km">%1$d mi used</string>
+    <string name="menu_select_plan">Select plan</string>
+    <string name="card_monthly_miles_features">Features: </string>
+    <string name="card_monthly_miles_select_plan">Select</string>
+    <string name="first_trip_dialog_header">Congratulations!</string>
+    <string name="first_trip_dialog_message">You have completed your first trip. Check it out!</string>
+    <string name="first_trip_dialog_ack_button">Continue</string>
+
+    <string name="trip_label_hint_dialog_title">Trip Labeling</string>
+    <string name="trip_label_hint_dialog_message">You can label your trips by tapping the icon above.</string>
+    <string name="trip_label_hint_dialog_ack_button">OK</string>
+    <string name="undescribable_location">unknown</string>
+    <string name="rewards_card_error_dialog_title">Errors retrieving reward balance</string>
+    <string name="rewards_card_error_dialog_message">We\'re sorry, there were errors showing your rewards.</string>
+    <string name="first_reward_dialog_header">Awesome!</string>
+    <string name="first_reward_dialog_message">You have earned enough safe driving cash to redeem your first reward! Check out what you can redeem.</string>
+    <string name="first_reward_dialog_ack_button">Continue</string>
+    <string name="service_requires_location_permissions">Location permissions required for %1$s to record trips</string>
+    <string name="service_requires_activity_recognition_permissions">Activity recognition permissions required for %1$s to record trips</string>
+    <string name="service_notification_degraded_location_permission">Location permission must be granted to properly record trips</string>
+    <string name="service_notification_degraded_activity_recognition_permission">Activity recognition permission must be granted to properly record trips</string>
+    <string name="permission_required">Permission Required</string>
+    <string name="disable_auto_revoke_permission">Disable Permission Auto-Reset</string>
+    <string name="requires_auto_revoke_disabled">%1$s needs permissions to work. Go to permissions for %2$s and disable \"Remove permissions if app isn\’t used\" at the bottom of the screen.</string>
+
+    <!-- First Drive Reward: appears after a user completes their first drive AND has their rewards balance increased above 0. -->
+    <string name="first_drive_reward_dialog_header">Congratulations!</string>
+    <string name="first_drive_reward_dialog_message">You’ve completed your first trip and earned a reward!</string>
+    <string name="first_drive_reward_dialog_ack_button">Great!</string>
+
+    <!-- Towers Watson only -->
+    <string name="dashTripMetricsNoScoreYetTw">In order to have a score, you need at least seven days of data collection from the first trip and one more trip after the seventh day.</string>
+    <string name="dashTripMetricsKeysTw">Miles\nTime of Day\nSmoothness\nRoads</string>
+    <string name="dash_your_score_tw">DRIVEABILITY SCORE</string>
+
+    <string name="scoreBreakdownKeyNight">Time of Day</string>
+    <string name="scoreBreakdownKeySmoothness">Smoothness</string>
+    <string name="scoreBreakdownKeyRoads">Roads</string>
+
+    <string name="main_title_tip_7">Miles</string>
+    <string name="main_title_tip_8">Time of day</string>
+    <string name="main_title_tip_9">Smoothness</string>
+    <string name="main_title_tip_10">Roads</string>
+
+    <!-- Rewards  -->
+    <!-- These rewards strings need to be moved to the translated strings file eventually, especially if
+         rewards begin being offered internationally-->
+
+    <string name="rewards_score">Score:</string>
+    <string name="rewards_reward">Reward:</string>
+    <string name="rewards_card_no_reward">You don\'t qualify for any rewards yet. Keep driving.</string>
+    <string name="rewards_available_balance">AVAILABLE BALANCE</string>
+    <string name="rewards_available_balance_placeholder">N/A</string>
+    <string name="rewards_tab_gift_card">Gift Cards</string>
+    <string name="rewards_tab_donations">Donations</string>
+    <string name="rewards_tab_cash_equivalent">Visa</string>
+    <string name="rewards_tab_cash_equivalent_config">cash equivalent</string>
+    <string name="rewards_tab_gift_card_config">gift card</string>
+    <string name="rewards_tab_donations_config">donation</string>
+    <string name="rewards_general_terms">The merchants represented are not sponsors of the rewards or otherwise affiliated with this company. The logos and other identifying marks attached are trademarks of and owned by each represented company and/or its affiliates. Please visit each company\'s website for additional terms and conditions.</string>
+    <string name="rewards_insufficient_funds">Insufficient Funds</string>
+    <string name="rewards_reward_item">%s Reward</string>
+    <string name="rewards_selected_value">
+        <![CDATA[
+        Gift Card value <b>%s</b>
+        ]]>
+    </string>
+    <string name="rewards_selected_new_balance">
+        <![CDATA[
+        Your new Available Balance will be <b>%s</b>.
+        ]]>
+    </string>
+    <string name="rewards_confirm_success_title">Success!</string>
+    <string name="rewards_confirm_success_body">Your redemption code will be emailed to you.</string>
+    <string name="rewards_card_has_reward">
+    <![CDATA[
+        <b>Great job!</b> You\'re on track to receive %1$s on %2$s. Keep up your score and drive at least %3$s to earn rewards.
+        ]]>
+    </string>
+    <string name="rewards_min_distance_label">%1$s %2$s</string>
+    <!-- Replacement fields are {value-units}, {value-amount} -->
+    <string name="rewards_value_format" formatted="false">%s%.2f</string>
+    <string name="rewards_whole_value_format" formatted="false">%s%.0f</string>
+    <string name="rewards_points_value_format" formatted="false">%,d</string>
+    <string name="rewards_points_whole_format" formatted="false">%d</string>
+
+    <!-- REGISTER_LOCATION putting here until another app beside BSD needs this -->
+    <string name="location_prompt">Enter your location</string>
+    <string name="location_hint">Location</string>
+    <string name="location_next">Next</string>
+    <string name="location_reason">Your location is needed to determine what leaderboard is displayed to you.</string>
+    <string name="location_invalid">Invalid location</string>
+    <string name="location_pick_title">Pick your location</string>
+    <string name="location_confirm_message">Is <b>%1$s</b> your location? You cannot change this once it is set.</string>
+    <string name="location_skip_message">Are you sure you want to skip?</string>
+    <string name="location_set_successful">Location set successfully!</string>
+    <string name="profile_location_hint">Location</string>
+    <string name="profile_set_location_hint">Click to set your location</string>
+    <string name="profile_location">LOCATION</string>
+    <string name="eligible_for_competition">You are competing.</string>
+    <string name="ineligible_for_competition">Your location is not eligible the competition.</string>
+    <string name="set_location_for_eligibility">Set your location to be eligible for the competition.</string>
+
+    <!-- Trip List -->
+    <string name="tripItemDistanceForDuration">
+        <![CDATA[
+        <b>%1$s</b> for <b>%2$s</b>
+        ]]>
+    </string>
+    <string name="tripItemDistanceForDurationTagOnly">%1$s</string>
+    <string name="floatDistanceKm">%1$.1f km</string>
+    <string name="floatDistanceMiles">%1$.1f mi</string>
+
+
+    <!-- Map Trip -->
+    <string name="mapTripEventAcc">%1$s, +%2$.1f %3$s in %4$.1f sec</string>
+    <string name="mapTripEventBrake">%1$s, %2$.1f %3$s in %4$.1f sec</string>
+    <string name="mapTripEventCorner">%1$s, %2$.1f deg/sec @ %3$.0f %4$s</string>
+    <string name="mapTripEventG">%1$s, %2$.1f g in %3$.1f sec</string>
+    <string name="mapTripEventDefault">%1$s, %2$.0f %3$s</string>
+    <string name="mapTripEventDefaultNoSpeed">%1$s</string>
+    <string name="mapTripPremiumEventDefault">%1$s | %2$s, %3$.0f %4$s</string>
+    <string name="mapTripPremiumEventDefaultNoSpeed">%1$s | %2$s</string>
+
+    <!-- Settings -->
+    <string name="settings_units_km">Km</string>
+    <string name="settings_units_kilometers">KILOMETERS</string>
+    <string name="settings_units_miles">Mi</string>
+    <string name="settings_units_miles_full">MILES</string>
+    <string name="empty"></string>
+
+    <!-- Dashboard -->
+    <string name="dash_leaderboard_no_rank">00</string>
+    <string name="dash_streak_body_zero_trips">0</string>
+    <!-- Tag List -->
+    <string name="tag_activation_activating">Activating</string>
+    <string name="tag_activation_activated">Activated</string>
+    <string name="tagListNoTagsFound">Since app installation, this device has not connected to any tags.</string>
+    <string name="tag_item_connection">Connection count:</string>
+    <string name="phone_item_connection">Phone connections:</string>
+    <string name="tag_item_battery">Battery:</string>
+    <string name="tag_item_trips">Trips:</string>
+    <string name="tag_blacklist_state">Blacklisted:</string>
+    <string name="tag_blacklist_state_true">Yes</string>
+    <string name="tag_blacklist_state_false">No</string>
+
+    <!-- Enable Tags V1 -->
+    <string name="enableTagGetStartedHelp">
+<![CDATA[
+Need help? <u>Contact support</u>
+        ]]>
+    </string>
+    <string name="enableTagGetStartedSkip">
+<![CDATA[
+If you do not need to install a tag at this time,
+you can <u>skip this process</u>
+        ]]>
+    </string>
+    <string name="enableTagNicknameHint">Nickname (Sally\'s car)</string>
+    <string name="enableTagInstallBody">Congratulations! Your Tag is now linked.\n\nAttach it to the windshield behind the rearview mirror.</string>
+    <string name="enableTagInstallContinue">Start Driving!</string>
+
+    <!-- Enable Tags: Registration (License Plate) -->
+    <string name="enableTagRegistrationBody">Please enter your registration information below.</string>
+    <!-- <string name="enableTagRegistrationHint1">Municipality</string> -->
+    <!-- <string name="enableTagRegistrationHint2">Number 1</string> -->
+    <!-- <string name="enableTagRegistrationHint3">Character on the left</string> -->
+    <!-- <string name="enableTagRegistrationHint4">Number 2</string> -->
+
+    <!-- Enable Tags V2 -->
+    <string name="vehicle_intro_title">Your Vehicles</string>
+    <string name="vehicle_intro_body">
+    <![CDATA[
+    Link the Tag you\'re installing in your vehicle or add a new vehicle.
+        ]]>
+</string>
+    <string name="vehicle_intro_title_add_vehicle">Add a vehicle</string>
+    <string name="vehicle_intro_body_add_vehicle">
+    <![CDATA[
+In order to begin using <b>%s</b> you will need to add a vehicle to your account
+and link a tag to the vehicle. To begin this process,
+tap <b><i>Add Vehicle</i></b>
+        ]]>
+</string>
+    <string name="vehicle_list">VEHICLE LIST</string>
+    <string name="vehicle_detail_vehicle_info">VEHICLE INFO</string>
+    <string name="vehicle_detail_tag_info">TAG INFO</string>
+    <string name="vehicle_detail_button">Replace Tag</string>
+    <string name="vehicle_list_item_prefix"></string>
+    <string name="vehicle_list_item_vin_prefix">VIN:</string>
+
+    <string name="vehicle_detail_registration">Registration</string>
+    <string name="vehicle_detail_nickname">Nickname</string>
+    <string name="vehicle_detail_make">Vehicle Make</string>
+    <string name="vehicle_detail_model">Model</string>
+    <string name="vehicle_detail_tag">Tag Number</string>
+    <string name="vehicle_detail_status">Status</string>
+    <string name="vehicle_detail_last_connected">Last Connected</string>
+    <string name="vehicle_detail_version">Version</string>
+    <string name="vehicle_detail_battery">Battery</string>
+    <string name="vehicle_detail_vehicle_id">Vehicle Id</string>
+    <string name="vehicle_detail_fleet_name">Fleet Name</string>
+    <string name="vehicle_detail_vin">VIN</string>
+
+    <string name="tag_detail_mac">Tag Number</string>
+    <string name="tag_detail_status">Status</string>
+    <string name="tag_detail_last_connected">Last Connected</string>
+    <string name="tag_detail_version">Version</string>
+    <string name="tag_detail_battery">Battery</string>
+    <string name="tag_detail_connected">Connected</string>
+    <string name="tag_detail_not_connected">Not Connected</string>
+    <string name="tag_detail_battery_value_good">Good (%d%%)</string>
+    <string name="tag_detail_battery_value_poor">Poor (%d%%)</string>
+    <string name="tag_detail_battery_value_unknown">Unknown (%d%%)</string>
+    <string name="tag_link_steps">1. Enter the vehicle with your phone and Tag. Make sure no other Tag is in the vehicle.\n \n 2. Press and hold the button on the Tag until its light turns on. \n \n 3. Place the Tag next to your phone. When your phone detects the Tag, a confirmation will appear.</string>
+    <string name="tag_link_new_instructions">1. Enter the vehicle with your phone and Tag. Make sure no other Tag is in the vehicle.\n\n2. <b>Tap the “Link Tag” button below. Then press and hold the button on the tag for a few seconds until the light blinks indicating the tag is active.</b>\n\n3. Place the Tag next to your phone. When your phone detects the Tag, a confirmation will appear.</string>
+    <string name="tag_link_new_instructions_cdm">1. Enter vehicle with your phone and Tag. Make sure no other Tag is in the vehicle.\n\n2. <b>Press and hold the button on the Tag until the light blinks.</b>\n\n3. <b>Tap the “Link Tag” button.</b>\n\n4. When your phone detects the Tag, tap the device in the popup.</string>
+    <string name="tag_association_error_message">Tag linking could not complete due to a problem with CDM association.  Please try again later.</string>
+    <string name="tag_association_dialog_title">Error Associating Tag</string>
+
+    <string name="menu_link_tag">Link Tag</string>
+    <string name="link_tag_button">@string/tagLinkVehicleLinkButton</string>
+    <string name="tagLinkDetectTitle">Tag Detected</string>
+    <string name="tagLinkNotMine">Not my tag</string>
+    <string name="tagLinkConfirm">Confirm</string>
+    <string name="tagLinkSkip">Skip</string>
+    <string name="tagLinkBlink">Please confirm that the light is blinking on the tag and the number printed on it is %s</string>
+    <string name="tagLinkBlinkConfirmButton">Blinking</string>
+    <string name="tagLinkBlinkNegative">Not blinking</string>
+    <string name="tagLinkConfirmRequest">Please confirm that the number printed on the tag is %s</string>
+    <string name="tagLinkSuccess">Success!</string>
+    <string name="tagLinkSuccessLinkAnotherTag">Start driving or return to the <u><a href="">Vehicles</a></u> screen to link another Tag.</string>
+    <string name="tagLinkRetry">Retry</string>
+    <string name="tag_linking_error_no_tags_found">We could not find any tags to link! Be sure to press the button on the tag for 4 seconds and hold it close to the phone.</string>
+    <string name="tag_linking_error_network_failure">Network connection failure while linking. Please try again later.</string>
+    <string name="tag_linking_error_tag_already_linked">We found a tag, but it\'s already linked! Please ensure that the tag you are trying to link is the closest tag to the phone.</string>
+    <string name="tag_linking_error_unsupported_indication">Fatal error while linking. Please contact support.</string>
+    <string name="tag_linking_error_vehicle_already_linked">Selected vehicle is already linked.</string>
+    <string name="tag_linking_error_unknown">Tag %s cannot be linked to this vehicle</string>
+    <string name="tag_linking_error_unsupported">Tag Linking Error. Please Contact Support.</string>
+    <string name="tag_linking_error_tag_not_found">Tag not found.</string>
+    <string name="tag_connect_please_wait">Please wait until tag is connected. Do not leave this screen.</string>
+
+    <!-- Add Vehicle V2 -->
+    <string name="add_vehicle">Add Vehicle</string>
+    <string name="add_another_vehicle">ADD ANOTHER VEHICLE</string>
+    <string name="add_vehicle_title">Create a Vehicle</string>
+    <string name="add_vehicle_body">Enter vehicle information</string>
+    <string name="add_vehicle_details_registration_hint">Registration</string>
+    <string name="add_vehicle_details_name_hint">Vehicle Name e.g. Toyota Camry</string>
+    <string name="add_vehicle_details_make_hint">Make (Optional)</string>
+    <string name="add_vehicle_details_model_hint">Model (Optional)</string>
+    <string name="add_vehicle_details_vin_hint">VIN</string>
+    <string name="add_vehicle_details_license_plate_hint">License Plate</string>
+    <string name="add_vehicle_details_header"></string>
+    <string name="adding_vehicle">Adding Vehicle</string>
+    <string name="updating_vehicle">Updating Vehicle</string>
+    <string name="vehicle_name">Vehicle name</string>
+    <string name="vehicle_detail_edit_registration">Edit Vehicle Registration</string>
+    <string name="vehicle_not_defined_on_tag_scan_screen_error">Vehicle not defined</string>
+    <string name="unsupported_os_for_cdm_error">Unsupported OS for associating companion device</string>
+    <string name="unexpected_error_with_cdm">Unexpected error associated device</string>
+
+    <string name="no_cdm_devices_found_error_string">Move the tag closer to the phone and press \"Link Tag\" again</string>
+    <string name="no_cdm_devices_found_dialog_title">No Devices found</string>
+
+    <!-- Vehicle Tags -->
+    <string name="tagLinkVehicleLinkButton">Link Tag</string>
+    <string name="tagLinkAssocVehicleLinkButton">Upgrade Link</string>
+    <string name="tagLinkVehicleLinkBigButton">@string/tagLinkVehicleLinkButton</string>
+    <string name="tagLinkVehicleRenameButton">Rename Tag</string>
+    <string name="tagLinkVehicleNoName">Unknown vehicle</string>
+    <string name="tagLinkDialogTitle">Change vehicle nickname</string>
+    <string name="tagLinkDialogBody">Enter a new name to display for your vehicle</string>
+    <string name="tagLinkFailedTitle">Link failed</string>
+    <string name="vehicleTagsInfoHeader">Activate your tag</string>
+    <string name="vehicleTagsInfoBody">After installing your tag in your vehicle, hold down the button on the tag until the light comes on.\n\nWhen the tag appears in the list below, tap \'Link Tag\' to link it and give it a nickname.</string>
+    <string name="cdm_unassociated_tags_dashboard_popup_title">Upgrade Tag Link</string>
+    <string name="cdm_unassociated_tags_dashboard_popup_message">Improve the app\'s ability to record your drives by updating your tag link!</string>
+    <string name="cdm_unassociated_tags_dashboard_popup_button_label">CONTINUE</string>
+    <!-- Vehicles -->
+    <string name="vehiclesAddNewTag">Link a new vehicle</string>
+    <string name="vehiclesNoDataTitle">No vehicles found</string>
+    <string name="vehiclesNoDataBody">You have no vehicles associated with your account.</string>
+
+    <!-- Track My Vehicles -->
+    <string name="trackMyVehiclesConnected">Moving</string>
+    <string name="trackMyVehiclesLocating">Locating</string>
+    <string name="trackMyVehiclesNotConnected">Parked</string>
+    <string name="trackMyVehiclesLastUpdateTimeNoData">Last update time not available</string>
+    <string name="trackMyVehiclesNoData">No vehicles found</string>
+    <string name="trackMyVehiclesNetworkError">Network error. Please check your network settings.</string>
+    <string name="trackMyVehiclesRefresh">Refreshing now...  Note that repeatedly refreshing will lead to high battery consumption for your family\'s phones.</string>
+
+
+    <string name="menu_tag_diagnostics">Tag Diagnostics</string>
+    <string name="menu_vehicles">Vehicles &amp; Tags</string>
+    <string name="title_vehicle_details">Vehicle Details</string>
+    <string name="menu_add_vehicle">@string/menu_vehicles</string>
+    <string name="menu_edit_vehicle_page">Edit Vehicle</string>
+    <string name="menu_track_my_vehicles">Find My Vehicles</string>
+    <string name="vehicle_nickname_unknown">Unknown vehicle</string>
+
+
+    <!-- Personal/Business Trip Tracking -->
+    <string name="business">Business</string>
+    <string name="personal">Personal</string>
+    <string name="business_trip">Business Trip</string>
+    <string name="personal_trip">Personal Trip</string>
+    <string name="dialog_trip_edit_title">Edit Trip Details</string>
+    <string name="dialog_trip_edit_hint">Please provide any additional details for this trip</string>
+
+    <string name="driveDetectorTag">BTLE Tag</string>
+
+    <string name="driving_plan_selected">Driving plan successfully selected.</string>
+    <string name="driving_plan_updated">Driving plan successfully updated.</string>
+    <string name="error_selecting_driving_plan">You are not allowed to pick yet.</string>
+    <string name="title_select_a_plan">Select a Plan</string>
+    <string name="title_features">Features:</string>
+    <string name="month"> %s/month</string>
+    <string name="year"> %s/year</string>
+    <string name="miles">miles</string>
+    <string name="km">km</string>
+    <string name="button_select">Select</string>
+    <string name="card_driving_plan_text_title">Test plan</string>
+    <string name="updates_nightly">Updates nightly</string>
+
+    <string name="reward_progress_view_bucket_format">%s</string>
+
+    <string name="reward_lowest">
+        Get your score to %1$d\nto earn %2$s on %3$s
+        </string>
+    <string name="reward_middle">
+        On track to earn %1$s!\nGet your score to %2$d\nto earn %3$s on %4$s
+        </string>
+    <string name="reward_highest">
+        Keep your score above %1$d\nto earn %2$s on %3$s
+    </string>
+
+    <string name="reward_sub_lowest">
+        Get your %1$s score to %2$d\nto earn %3$s on %4$s
+        </string>
+    <string name="reward_sub_middle">
+        On track to earn %1$s!\nGet your %2$s score to %3$d\nto earn %4$s on %5$s
+        </string>
+    <string name="reward_sub_highest">
+        Keep your %1$s score above %2$d\nto earn %3$s on %4$s
+    </string>
+    <string name="reward_miles_threshold_text"/>
+
+    <string name="update_plan">Update Plan</string>
+    <string name="driving_plan_starting_pattern">
+        <![CDATA[
+        Starting %1$s: <b>%2$s</b></string>
+        ]]>
+    </string>
+
+    <string name="for_contest_information_please_visit_our_website">For contest information, please visit\nour website</string>
+
+
+    <string name="day_segment_title">Day</string>
+    <string name="week_segment_title">Week</string>
+    <string name="total_segment_title">Total</string>
+    <!-- Trip Summary -->
+    <string name="daily_summary_card_title">Daily Summary</string>
+    <string name="summary_card_trips_label">Trips</string>
+    <string name="summary_card_distance_label_miles">MILES</string>
+    <string name="summary_card_distance_label_kms">KMS</string>
+    <string name="summary_card_duration_label">Time</string>
+    <string name="summary_card_events_label">Events</string>
+    <string name="summary_card_calls_label">Phone Calls</string>
+    <string name="summary_card_tapping_label">Screen Tapping</string>
+    <string name="summary_card_screen_on_tapping_label">Screen On Tapping</string>
+
+    <string name="daily_summary_card_int_format">%,d</string>
+    <string name="daily_summary_card_float_format">%.1f</string>
+    <string name="daily_summary_card_duration_format">%1$d:%2$d</string>
+    <string name="daily_summary_card_percent_format">%d%%</string>
+    <string name="open_calendar">Open Calendar</string>
+
+    <string name="night_time_driving">Nighttime\ndriving (min)</string>
+    <string name="idle_time">Idle time\n(Percent)</string>
+    <string name="hard_brake_accel">Hard brake /\nAccel</string>
+
+    <string name="summary_card_weekly_distance_miles_label">Miles Driven</string>
+    <string name="summary_card_weekly_distance_km_label">Kilometers Driven</string>
+    <string name="summary_card_weekly_accel_label">@string/summary_acceleration_title</string>
+    <string name="summary_card_weekly_brake_label">@string/summary_braking_title</string>
+    <string name="summary_card_weekly_night_driving_label">Nighttime Driving</string>
+    <string name="summary_card_weekly_idle_time_label">Idle Time</string>
+    <string name="summary_card_weekly_brake_accel_label">Hard Brake / Accel</string>
+    <string name="summary_card_weekly_drive_time">Drive Time (min)</string>
+
+    <!-- Configurable Daily Summary variations -->
+    <string name="config_daily_summary_night_time_driving">Nighttime Driving (min)</string>
+    <string name="config_daily_summary_phone_call">Phone Call</string>
+    <string name="config_daily_summary_handheld_call">Handheld Call</string>
+    <string name="config_daily_summary_handsfree_call">Hands Free Call</string>
+    <string name="config_daily_summary_phone_tapping">Screen Tapping</string>
+    <string name="config_daily_summary_driving_time">Driving Time (min)</string>
+    <string name="config_daily_summary_drives">Trips</string>
+    <string name="config_daily_summary_total">TOTAL EVENTS</string>
+    <string name="config_daily_summary_consolidated_distraction">Distraction</string>
+
+    <string name="summary_distraction_title">Phone Use</string>
+    <string name="summary_speeding_title">Speeding</string>
+    <string name="summary_braking_title">Braking</string>
+    <string name="summary_acceleration_title">Acceleration</string>
+    <string name="summary_cornering_title">Cornering</string>
+    <string name="summary_total_event_title">TOTAL EVENTS</string>
+
+    <string name="metric_sub_header_mileage">Mileage</string>
+    <string name="metric_sub_header_km">Kilometers</string>
+    <string name="metric_sub_header_minutes">Minutes</string>
+    <string name="metric_sub_header_percent">Percent</string>
+    <string name="metric_sub_header_events">Events</string>
+
+    <string name="create_a_user_account">Create a user account</string>
+    <string name="see_all">See all</string>
+    <string name="your_balance">Your Balance</string>
+    <string name="reward_edges_pattern">%1$d-%2$d</string>
+
+    <string name="summary_zero_trips">You didn\'t take any trips in this time period.</string>
+    <string name="summary_no_trips"><b>No trips to display</b>\nYour trip details are only saved for the past %d days.</string>
+    <string name="weekly_summary_date_range_hint_text">Please note that detailed trip data is saved for %d days.</string>
+
+    <!--Weekly Summary -->
+    <string name="weekly_summary_card_title"><b>Weekly Summary</b></string>
+    <string name="expanded_child_text">From same period last week</string>
+    <string name="expanded_child_text_previous">From last week</string>
+    <string name="expand_metrics">expand metrics</string>
+    <string name="metric_value_indicator">Metric Value Indicator</string>
+
+    <string name="daily_details">Daily details</string>
+    <string name="expandable_list_metric_nav_text">Go to %1$s from %2$s</string>
+    <plurals name="metric_card_number_of_trips">
+        <item quantity="one">%d trip</item>
+        <item quantity="other">%d trips</item>
+    </plurals>
+
+    <string name="metric_info_title">What is %1$s?</string>
+    <string name="api_events_processing">Unable to get data for your trip. Please try again later. </string>
+
+    <string name="network_unavailable">Network unavailable</string>
+    <string name="labelling_network_required">You must be connected to the network in order to label drives.</string>
+
+    <string name="scoreBreakdownKeyMilesDriven">Miles Driven</string>
+    <string name="scoreBreakdownKeyNightDriving">Nighttime Driving (min)</string>
+    <string name="scoreBreakdownKeyHardBraking">Hard Braking events</string>
+    <string name="scoreBreakdownKeyHardAccel">Hard Acceleration events</string>
+    <string name="scoreBreakdownKeyIdle">Idle Time (min)</string>
+    <string name="login">Login</string>
+
+    <string name="provide_email_title">Please provide email address</string>
+    <string name="provide_mobile_title">Enter your mobile number</string>
+    <string name="provide_email_description">This email address is used to send you the reward gift cards you earn and redeem.</string>
+    <string name="provide_mobile_description">One last step! Please provide your mobile number so you\'re able to login via SMS.</string>
+    <string name="provide_email_hint">Email address</string>
+    <string name="provide_mobile_hint">@string/mobile_hint</string>
+    <!-- Android 11 Permissions -->
+    <string name="location_permission_title">Don\'t Miss Your Trips!</string>
+    <string name="location_permission_detail">%1$s needs location access set to %2$s so it can automatically record your drives.</string>
+    <string name="location_permission_discount_detail">Love a good discount? %1$s needs location access set to %2$s so it can automatically record your drives. Safe drives can save you money!</string>
+    <string name="location_permission_reward_detail">Want your rewards? %1$s needs location access set to %2$s so it can automatically record your drives. Safe drives can earn you prizes!</string>
+    <string name="location_permission_mileage_detail">%1$s needs location access set to %2$s so it can automatically record your drives and provide low mileage benefits.</string>
+    <string name="location_permission_steps">This takes 2 steps.</string>
+    <string name="permission_step_one">1.</string>
+    <string name="permission_step_two">2.</string>
+    <string name="location_permission_step_one">On the next screen, please select %1$s.</string>
+    <string name="location_permission_step_one_and12">On the next screen, please select Precise Location and %1$s.</string>
+    <string name="location_permission_step_two_api30">Then you will be directed to the Location Permission screen to select %1$s.</string>
+    <string name="allow_all_time">Allow all the time</string>
+    <string name="while_using_app">While using the app</string>
+    <string name="lockout_title">Houston, we\'ve got a problem.</string>
+    <string name="lockout_button_title">Fix the problem!</string>
+    <string name="activity_lockout_details">%1$s uses your activity data to accurately detect that you are moving in a vehicle rather than walking or running. To record your drives and get your score, you must set activity permission to %2$s.</string>
+    <string name="activity_lockout_details_without_score_text">%1$s uses your activity data to accurately detect that you are moving in a vehicle rather than walking or running. To record your drives, you must set activity permission to %2$s.</string>
+    <string name="activity_lockout_discount_details">%1$s uses your activity data to accurately detect that you are moving in a vehicle rather than walking or running. To record your drives and qualify for discounts, you must set activity permissions to %2$s.</string>
+    <string name="activity_lockout_reward_details">%1$s uses your activity data to accurately detect that you are moving in a vehicle rather than walking or running.  To record your drives and get your rewards, you must set activity permissions to %2$s.</string>
+    <string name="activity_lockout_mileage_details">%1$s uses your activity data to accurately detect that you are moving in a vehicle rather than walking or running.  To record your drives and qualify for low mileage benefits, you must set activity permissions to %2$s.</string>
+    <string name="activity_lockout_steps">Follow these quick steps:</string>
+    <string name="activity_lockout_step_one">Tap the button below to go to %1$s\'s App Info page</string>
+    <string name="lockout_tap">Tap %1$s</string>
+    <string name="permissions_step_three">3.</string>
+    <string name="permissions_step_four">4.</string>
+    <string name="permissions_step_five">5.</string>
+    <string name="lockout_enable_precise_location">Check that precise location is on</string>
+    <string name="permissions_allow">Allow</string>
+    <string name="permissions">Permissions</string>
+    <string name="physical_activity">Physical Activity</string>
+    <string name="lockout_act_step_4">Tap %1$s</string>
+    <string name="lockout_loc_step_4">Choose %1$s</string>
+    <string name="location">Location</string>
+    <string name="bg_restriction_lockout_details">%1$s has been restricted from collecting trip data in the background. Please tap the button below and then go to the app\'s Battery settings.</string>
+    <string name="restriction_lockout_steps">Make sure that:</string>
+    <string name="restriction_lockout_step_one">The app can use battery in the background and activity in the background is not restricted</string>
+    <string name="restriction_lockout_step_two">Battery usage for the app is not being optimized</string>
+    <string name="restriction_lockout_step_three">Other battery saver settings for the app are turned off</string>
+    <string name="location_lockout_details">To record your drives and get your score, %1$s needs location permission set to %2$s.</string>
+    <string name="location_lockout_details_without_score_text">To record your drives, %1$s needs location permission set to %2$s.</string>
+    <string name="location_lockout_discount_details">To record your drives and qualify for discounts, %1$s needs location permission set to %2$s.</string>
+    <string name="location_lockout_reward_details">To record your drives and get your rewards, %1$s needs location permission set to %2$s.</string>
+    <string name="location_lockout_mileage_details">To record your drives and provide low mileage benefits, %1$s needs location permission set to %2$s.</string>
+    <string name="location_lockout_details_and12">To record your drives and get your score, %1$s needs location permission set to %2$s and precise location turned on.</string>
+    <string name="location_lockout_details_and12_without_score_text">To record your drives, %1$s needs location permission set to %2$s and precise location turned on.</string>
+    <string name="location_lockout_discount_details_and12">To record your drives and qualify for discounts, %1$s needs location permission set to %2$s and precise location turned on.</string>
+    <string name="location_lockout_reward_details_and12">To record your drives and get your rewards, %1$s needs location permission set to %2$s and precise location turned on.</string>
+    <string name="location_lockout_mileage_details_and12">To record your drives and provide low mileage benefits, %1$s needs location permission set to %2$s and precise location turned on.</string>
+    <string name="lockout_choose">Choose %1$s</string>
+    <string name="combo_lockout_details">To record your drives and get your score, %1$s needs both location permission and activity permission to be properly set.</string>
+    <string name="combo_lockout_details_without_score_text">To record your drives, %1$s needs both location permission and activity permission to be properly set.</string>
+    <string name="combo_lockout_discount_details">To record your drives and qualify for discounts, %1$s needs both location permission and activity permission to be properly set.</string>
+    <string name="combo_lockout_reward_details">To record your drives and get your rewards, %1$s needs both location permission and activity permission to be properly set.</string>
+    <string name="combo_lockout_mileage_details">To record your drives and qualify for low mileage benefits, %1$s needs both location permission and activity permission to be properly set.</string>
+    <string name="combo_lockout_step_two_text">Tap Permissions and do %1$s steps below</string>
+    <string name="combo_highlight_both">both</string>
+    <string name="combo_lockout_location_prefix">Set Location permission to %1$s</string>
+    <string name="combo_lockout_location_prefix_and12">Set Location permission to %1$s and check that precise location is on</string>
+    <string name="combo_lockout_motion_prefix">Set Physical Activity permission to %1$s</string>
+    <string name="bluetooth_lockout_title">%1$s Requires Bluetooth</string>
+    <string name="bluetooth_lockout_details">%1$s needs access to Bluetooth so it can communicate with the Tag to record your trips. Use of Bluetooth has minimal impact on phone battery usage. Please select %2$s on the next screen.</string>
+    <string name="bluetooth_lockout_discount_details">%1$s needs access to Bluetooth so it can communicate with the Tag to record your trips and determine discounts. Use of Bluetooth has minimal impact on phone battery usage. Please select %2$s on the next screen.</string>
+    <string name="bluetooth_lockout_reward_details">%1$s needs access to Bluetooth so it can communicate with the Tag to record your trips and get your rewards. Use of Bluetooth has minimal impact on phone battery usage. Please select %2$s on the next screen.</string>
+    <string name="bluetooth_lockout_mileage_details">%1$s needs access to Bluetooth so it can communicate with the Tag to record your trips and determine your low mileage benefits. Use of Bluetooth has minimal impact on phone battery usage. Please select %2$s on the next screen.</string>
+    <string name="media_permission_denied_info">To edit your photo, please go to the app\'s Permissions page in Settings and then allow access to media.</string>
+    <string name="educational_popup_text">In order to record trips and get your score, you must select %1$s location permission in settings.\n\nWithout location access all the time, %2$s will not work.</string>
+    <string name="educational_popup_text_without_score_text">In order to record trips, you must select %1$s location permission in settings.\n\nWithout location access all the time, %2$s will not work.</string>
+    <string name="educational_popup_discount_text">In order to record trips and qualify for discounts, you must select %1$s location permission in settings.\n\nWithout location access all the time, %2$s will not work.</string>
+    <string name="educational_popup_reward_text">In order to record trips and get your rewards, you must select %1$s location permission in settings.\n\nWithout location access all the time, %2$s will not work.</string>
+    <string name="educational_popup_mileage_text">In order to record trips and qualify for low mileage benefits, you must select %1$s location permission in settings.\n\nWithout location access all the time, %2$s will not work.</string>
+    <string name="educational_popup_ok_text">Go to settings</string>
+    <string name="educational_popup_no_thanks_text">No thanks</string>
+
+    <!-- Reward Program Permission Strings -->
+    <string name="reward_permission_title">Don\'t Miss Your Rewards</string>
+    <string name="reward_location_permission_lockout_detail">To record your drives and get your rewards, %1$s needs location permission set to %2$s.</string>
+    <string name="reward_activity_permission_lockout_detail">%1$s uses your activity data to accurately detect that you are moving in a vehicle rather than walking or running. To record your drives and get your rewards, you must set activity permission to %2$s.</string>
+    <string name="reward_combo_lockout_details">To record your drives and get your rewards, %1$s needs both location permission and activity permission to be properly set.</string>
+    <string name="reward_bluetooth_lockout_details">%1$s needs access to Bluetooth so it can communicate with the Tag to record your trips. Your rewards depend on this. Please select %2$s on the next screen.</string>
+    <string name="reward_activity_permission_description_v2">%1$s uses your activity data to accurately detect that you are moving in a vehicle rather than walking or running. To record your drives and get your rewards, you must select %2$s on the next screen.</string>
+
+    <!-- Discount Program Permission Strings -->
+    <string name="discount_permission_title">Don\'t Lose Your Discount</string>
+    <string name="discount_location_permission_lockout_detail">To record your drives and qualify for discounts, %1$s needs location permission set to %2$s.</string>
+    <string name="discount_activity_permission_lockout_detail">%1$s uses your activity data to accurately detect that you are moving in a vehicle rather than walking or running. To record your drives and qualify for discounts, you must set activity permission to %2$s.</string>
+    <string name="discount_combo_lockout_details">To record your drives and qualify for discounts, %1$s needs both location permission and activity permission to be properly set.</string>
+    <string name="discount_bluetooth_lockout_details">%1$s needs access to Bluetooth so it can communicate with the Tag to record your trips. Your discount depends on this. Please select %2$s on the next screen.</string>
+    <string name="discount_activity_permission_description_v2">%1$s uses your activity data to accurately detect that you are moving in a vehicle rather than walking or running. To record your drives and qualify for discounts, you must select %2$s on the next screen.</string>
+
+    <!-- Phone Distraction -->
+    <string name="menu_phone_distraction">Phone Use</string>
+    <string name="weekly_distraction">Distractions\nthis week</string>
+    <string name="phone_distraction_feedback_good">You\’re on the right track!</string>
+    <string name="phone_distraction_feedback_neutral">Not bad, but there\'s room to improve</string>
+    <string name="phone_distraction_feedback_bad">Be cautious and focus on the drive</string>
+    <string name="phone_distraction_trend_no_change">No change\nfrom last week</string>
+    <string name="phone_distraction_trend_up">%1$s more than\nlast week</string>
+    <string name="phone_distraction_trend_down">%1$s fewer than\nlast week</string>
+    <string name="dash_distraction_card_placeholder">- -</string>
+    <string name="phone_distraction_special_text">What is a \"phone use\"?</string>
+    <string name="distraction_details_time_string">You were distracted for \n%1$s while driving.</string>
+    <string name="distraction_details_count_string">You used your phone %1$s while driving.</string>
+    <plurals name="distraction_details_count_string_highlight">
+        <item quantity="one">\n%1$d time</item>
+        <item quantity="other">\n%1$d times</item>
+    </plurals>
+
+    <string name="distraction_explanation_no_drives">Distraction data will show here \nafter you start driving.</string>
+    <string name="default_distraction_duration">0m 0s</string>
+    <string name="distraction_duration_format">%1$dm %2$ds</string>
+    <string name="weekly_distraction_duration_format">%1$dh %2$dm</string>
+    <string name="current_week_duration">Time this week</string>
+
+    <!-- Invite Drivers Strings-->
+    <string name="toolbar_title_invite_drivers">Invite Drivers</string>
+    <string name="title_invite_drivers">All drivers in your policy need to install the app</string>
+    <string name="details_invite_drivers">Invite other drivers on your policy via text to download the app. Make sure they have consented to receiving this text message.\n(Data and Message Rates may apply)</string>
+    <string name="already_connected">Already connected:</string>
+    <string name="skip_invitation">Tap here to skip invitation for now.</string>
+    <string name="invitation_text_message"></string>
+    <string name="title_all_connected">All drivers connected</string>
+    <string name="details_all_connected">Well done! It looks like all eligible drivers on your policy are using the app already.</string>
+    <string name="no_sms_provider">No SMS provider found</string>
+    <string name="title_invalid_number">Invalid Number</string>
+    <string name="error_invalid_number">A mobile number entered was not valid.  Please try again.</string>
+    <string name="title_duplicate_number">Existing Number</string>
+    <string name="error_duplicate_number">There was a phone number entered that may already be in use by another driver. Please review the information and try again.</string>
+    <string name="invite_drivers_not_connected"></string>
+
+    <!--    Mileage history card-->
+    <string name="avg">Avg.</string>
+    <string name="miles_pattern">%1$d mi</string>
+    <string name="km_pattern">%1$d km</string>
+    <string name="savings_pattern">$%1$d</string>
+    <string name="mileage_history_title">%1$s History</string>
+
+    <!--Monthly credit card-->
+    <string name="credit_period_label">Credit Period:</string>
+    <string name="miles_driven">Miles Driven</string>
+    <string name="miles_remaining">Miles Remaining</string>
+
+    <string name="km_driven">Kilometers Driven</string>
+    <string name="km_remaining">Km Remaining</string>
+
+    <string name="days_remaining">Days Remaining</string>
+    <string name="days_left">days left</string>
+
+    <string name="mileage_pattern">%1$s Mileage</string>
+    <string name="earned_savings_message">Earned\nsavings</string>
+    <string name="no_data_available_yet">No data available yet</string>
+    <string name="no_savings_available">Not yet available</string>
+    <string name="mileage_history_stock_title">Mileage History Card</string>
+
+    <string name="monthly_mileage_stock_title">Mileage Card</string>
+    <string name="top_up_title_pattern">Mileage - %1$s</string>
+
+    <string name="mileage_credit_stock_title">Mileage</string>
+    <string name="details">Details</string>
+    <string name="last_top_up">Last Top Up</string>
+
+    <!-- Analytics -->
+    <string name="analytics_device_log_event">%1$s %2$s</string>
+
+    <string name="no_drive_time_indicator_string">-:--</string>
+    <string name="other_driver_s_trips">Other Trips</string>
+    <string name="my_trips">My Trips</string>
+    <string name="average_value">%1$d trips</string>
+    <string name="total_trips">Total Trips</string>
+    <string name="trip_details">Trip Details</string>
+
+    <string name="reward_score_overall">overall</string>
+    <string name="reward_score_accel">acceleration</string>
+    <string name="reward_score_brake">braking</string>
+    <string name="reward_score_turn">cornering</string>
+    <string name="reward_score_speed">speeding</string>
+    <string name="reward_score_phone_motion">distraction</string>
+    <string name="reward_score_night">night driving</string>
+
+    <!-- Impact/Crash Detection -->
+    <string name="crash_detection_acknowledge_new">Done</string>
+    <string name="crash_assistance_no_title">What to do next:</string>
+    <string name="crash_yes_tip_one_new">Safety first</string>
+    <string name="crash_yes_tip_two_one_new">Exchange information</string>
+    <string name="crash_yes_tip_one_description">Move away from traffic if you can. If anyone is injured, call 911</string>
+    <string name="crash_yes_tip_two_description">Don\'t discuss who is at fault. Exchange driver\'s license number and insurance details with other drivers.</string>
+    <string name="crash_yes_tip_three_description">Take photos of any car damage as well as photos of the crash scene.</string>
+    <string name="crash_yes_tip_three_new">Take photos</string>
+    <string name="crash_no_one_new">Glad to hear that.</string>
+    <string name="crash_no_two_new">We have your back in the case of a crash and we\'re constantly working to improve our product performance</string>
+
+    <string name="crash_detection_acknowledge">Got it!</string>
+    <string name="crash_yes_title">We hope you\'re ok!</string>
+    <string name="crash_yes_tip_heading">Here are some tips for documenting\na crash.</string>
+    <string name="crash_yes_tip_one">Don\'t admit fault! Call your insurer first.</string>
+    <string name="crash_yes_tip_two_one">Exchange information with all drivers\ninvolved, including:</string>
+    <string name="crash_yes_tip_two_two">- Full name and contact information</string>
+    <string name="crash_yes_tip_two_three">- Insurance company and policy number</string>
+    <string name="crash_yes_tip_two_four">- Driver\'s license and license plate number</string>
+    <string name="crash_yes_tip_two_five">- Make, model, year, and color of vehicle</string>
+    <string name="crash_yes_tip_two_six">- Location of crash</string>
+    <string name="crash_yes_tip_three">Take pictures of any damage to your car\nand other cars.</string>
+    <string name="crash_no_one">Glad to hear it.</string>
+    <string name="crash_no_two">Thanks for letting us\nknow!</string>
+
+
+    <string name="impact_detected_prompt">Were you in a crash?</string>
+    <string name="notification_impact_detected_title">ACTION NEEDED: Were you in a crash? </string>
+    <string name="notification_impact_detection_body">Tap to reply within %d seconds or we\'ll call you.</string>
+    <string name="impact_detected_heading">If you don\'t respond, we\'ll assume you \nneed help and call you in 60 secs.</string>
+    <string name="impact_detected_time_format">%1$s at %2$s</string>
+    <string name="impact_id" translatable="false">Impact ID: %1$d</string>
+    <string name="webview_error_loading_url">Could not connect to the server. Please check your internet connection or try later.</string>
+    <string name="impact_date_format">EEE, MMM dd, yyyy</string>
+    <string name="impact_time_format">h:mm a</string>
+
+    <string name="contact_us_description">
+        <![CDATA[
+        Please contact us with questions or to provide feedback at <a href="tel:%1$s">%2$s</a>.
+        ]]>
+    </string>
+
+    <string name="contact_us_display_phone_number">(123) 456-7890</string>
+    <string name="contact_us_phone_number">+1234567890</string>
+
+    <string name="mobileentry_title_select_a_country">Select a Country</string>
+    <string name="mobileentry_search">Search</string>
+    <string name="mobileentry_current_location">Current Location</string>
+    <string name="close">Close</string>
+    <string name="mobile_number">Mobile number</string>
+
+    <!-- Discount Information page -->
+    <string name="discount">Discount</string>
+    <string name="menu_discount_information">Discount Information</string>
+    <string name="about_discount">ABOUT YOUR DISCOUNT</string>
+    <string name="about_discount_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+    <string name="projected_discount_card">PROJECTED DRIVER DISCOUNT</string>
+    <string name="default_discount_value">0</string>
+    <string name="percent_symbol">%</string>
+    <string name="discount_default_value">--</string>
+
+    <string name="bullet_point" translatable="false">\u2022</string>
+
+    <string name="rating_popup_text">Enjoying this app?</string>
+    <string name="rating_invite_header_text">Thanks!</string>
+    <string name="rating_invite_body">Would you mind taking a moment to\nrate the app and leave a review?\nYour rating makes a difference!</string>
+    <string name="rate_now">RATE NOW</string>
+
+    <string name="feedback_header_text">Your feedback matters\nto us!</string>
+    <string name="feedback_body">Would you mind taking a moment to\nlet us know how we can make your\nexperience better?</string>
+    <string name="send_feedback">SEND FEEDBACK</string>
+    <string name="no_thanks">NO THANKS</string>
+
+    <string name="mileage_no_credit_display_text">--</string>
+    <string name="distraction_speeding_time_label">Time</string>
+    <string name="contract_reg_number_hint">Contract Number</string>
+
+    <string name="more_view_vehicles_title">@string/menu_vehicles</string>
+
+    <string name="dash_trends_overall_title">@string/trends_overall_title</string>
+
+    <string name="default_reward_units">$</string>
+    <string name="default_program_start_date_time">1970-01-05T00:00:00Z</string>
+    <string name="default_program_end_date_time">9999-01-01T00:00:00Z</string>
+    <string name="reward_min_value" translatable="false">2.5</string>
+
+    <!--  Safety Reminder Screen  -->
+    <string name="safetyReminderWindowStartTimeLocal">05:00:00</string>
+    <string name="safetyReminderWindowEndTimeLocal">10:00:00</string>
+    <string name="default_safety_reminder_item_text">Check List Item</string>
+    <string name="default_safety_reminder_button_text">Continue</string>
+    <string name="menu_safety_reminder">Safety Reminder</string>
+
+    <string name="vehicle_edit_save_button">Save</string>
+    <string name="edit_vehicle_title">Edit</string>
+    <string name="vehicle_edit_registration_label">Registration</string>
+    <string name="vehicle_edit_nickname_label">Nickname</string>
+    <string name="vehicle_edit_make_label">Make</string>
+    <string name="vehicle_edit_model_label">Model</string>
+    <string name="vehicle_edit_vin_label">Vin</string>
+    <string name="vehicle_edit_fail_toast">Couldn\'t update the vehicle. Please check your internet connection and try again later!</string>
+
+    <!-- Battery Optimization Screen -->
+    <string name="battery_optimization_screen_title">Please Turn Off Optimize Battery</string>
+    <string name="battery_optimization_screen_content">In order to automatically record your drives, %1$s must not be in battery optimization mode. Please select %2$s on the next screen.</string>
+    <string name="battery_optimization_screen_content_discount">In order to automatically record your drives and determine your discount, %1$s must not be in battery optimization mode. Please select %2$s on the next screen.</string>
+    <string name="battery_optimization_screen_content_rewards">In order to automatically record your drives and provide rewards, %1$s must not be in battery optimization mode. Please select %2$s on the next screen.</string>
+    <string name="battery_optimization_screen_content_mileage">In order to automatically record your drives and provide low mileage benefits, %1$s must not be in battery optimization mode. Please select %2$s on the next screen.</string>
+    <string name="disable_battery_optimization_notification_title">Please Turn Off Optimize Battery</string>
+    <string name="disable_battery_optimization_notification_content">In order to automatically record your drives, %1$s must not be in battery optimization mode. Tap here to turn it OFF in the app settings.</string>
+    <string name="disable_battery_optimization_notification_content_samsung">In order to automatically record your drives, %1$s must not be in battery optimization mode. Tap here to open the app and resolve the issue.</string>
+
+    <string name="view_details">View details</string>
+    <string name="mileage_verification_title">Mileage Verification Card</string>
+    <string name="end_date_label">Trial End Date:</string>
+
+    <!-- Account Deletion -->
+    <string name="account_deletion">Account Deletion</string>
+    <string name="account_deletion_text">Request Account Deletion</string>
+    <string name="account_deletion_header">Account Management</string>
+    <string name="account_deletion_screen_detailed_text"><![CDATA[With the button below, you can start the account deletion process. When deleted, your account will be removed from our systems and you will be unable to log in using the app in the future.<b> This action is not reversible.</b>
+         <br> <br> Please note that if your account is deleted, you will no longer be able to record your drives or get feedback on your driving behavior. You will also no longer be eligible for any future benefits of using the app such as discounts or rewards.]]>
+    </string>
+    <string name="account_deletion_popup_title_text">Are you sure you want to delete your user account?</string>
+    <string name="account_deletion_popup_subtitle_text">This action cannot be undone!</string>
+    <string name="account_deletion_confirmation_header">Your Account Will Be Deleted Soon</string>
+    <string name="account_deletion_confirmation_detailed_text"><![CDATA[We are currently processing your request, and you will be logged out of the app once your account is deleted.
+    <br> <br>
+    If this request was in error, please contact <a href="app-support@cmtelematics.com">app-support@cmtelematics.com</a>]]></string>
+    <string name="error_backup_deletion_string">We could not process your request. Please contact support.</string>
+    <string name="account_deletion_email_body_text">This user has used the account delete feature in the app to request that their account be removed. Please delete the user’s account in your systems and ensure that you delete it in CMT\'s systems as well via B2B API call.</string>
+
+    <!-- Content Description for Accessibility Start -->
+    <string name="select_item_content_description">Select Item</string>
+    <!-- Content Description for Accessibility End -->
+
+    <string name="dob_picker_dialog_title"><b>Select your date of birth</b></string>
+
+    <!-- HIG Compliant Permission Screens -->
+    <string name="hig_allow_all_time">Allow all the time</string>
+    <string name="hig_while_using_app">While using the app</string>
+    <string name="hig_lockout_button_title">Fix the problem!</string>
+    <string name="hig_location_permission_title">Don\'t Miss Your Trips!</string>
+
+    <!-- Location Permission -->
+    <string name="hig_location_permission_step_one">On the next screen, please select %1$s.</string>
+    <string name="hig_location_permission_step_one_and12">On the next screen, please select Precise Location and %1$s.</string>
+    <string name="hig_location_permission_step_two_api30">Then you will be directed to the Location Permission screen to select %1$s.</string>
+    <string name="hig_location_permission_detail_and11">%1$s needs location access set to %2$s so it can automatically record your drives.</string>
+    <string name="hig_location_permission_rewards_detail_and11">Want your rewards? %1$s needs location access set to %2$s so it can automatically record your drives. Safe drives can earn you prizes!</string>
+    <string name="hig_location_permission_discount_detail_and11">Love a good discount? %1$s needs location access set to %2$s so it can automatically record your drives. Safe drives can save you money!</string>
+    <string name="hig_location_permission_mileage_detail_and11">%1$s needs location access set to %2$s so it can automatically record your drives and provide low mileage benefits.</string>
+
+    <!-- Android 9 and below Location Permission only strings -->
+    <string name="hig_location_permission_detail_v1">Enable location access to measure\nand improve your driving!</string>
+    <string name="hig_location_permission_detail_rewards_v1">Enable location access to improve your driving and qualify for rewards!</string>
+    <string name="hig_location_permission_detail_discounts_v1">Enable location access to improve your driving and qualify for discounts!</string>
+    <string name="hig_location_permission_detail_mileage_v1">Enable location access to improve your driving and qualify for low mileage benefits!</string>
+
+    <!-- Android 10 Location Permission only strings -->
+    <string name="hig_location_permission_title_and10"><![CDATA[<b>%1$s requires your location all the time</b>]]></string>
+    <string name="hig_location_permission_description">
+        <![CDATA[To record trips, %1$s needs location access both while using the app and when the app is in the background. Without location set to <b>\"Allow all the time\"</b>, %2$s will not work.]]>
+    </string>
+    <string name="hig_location_permission_discount_description">
+        <![CDATA[Love a good discount? %1$s needs location access while using the app and when it is in the background to automatically record your drives. Safe drives can save you money!<br>On the next screen, please select <b>\"Allow all the time\"</b>.</br>]]>
+    </string>
+    <string name="hig_location_permission_rewards_description">
+        <![CDATA[Want your rewards? %1$s needs location access while using the app and when it is in the background to automatically record your drives. Safe drives can earn you prizes!<br>On the next screen, please select <b>\"Allow all the time\"</b>.</br>]]>
+    </string>
+    <string name="hig_location_permission_mileage_description">
+        <![CDATA[Don’t miss out! %1$s needs location access while using the app and when it is in the background to automatically record your drives and provide low mileage benefits.<br>On the next screen, please select <b>\"Allow all the time\"</b>.</br>]]>
+    </string>
+
+    <string name="hig_location_permission_detail_lockout"><![CDATA[To record your drives and get your score, %s needs Location permission set properly. You must select <b>\“Allow all the time\"</b> on the next screen.]]></string>
+    <string name="hig_location_permission_detail_rewards_lockout"><![CDATA[To record your drives and get your rewards, %s needs Location permission set properly. You must select <b>\“Allow all the time\"</b> on the next screen.]]></string>
+    <string name="hig_location_permission_detail_discounts_lockout"><![CDATA[To record your drives and qualify for discounts, %s needs Location permission set properly. You must select <b>\“Allow all the time\"</b> on the next screen.]]></string>
+    <string name="hig_location_permission_detail_mileage_lockout"><![CDATA[To record your drives and qualify for low mileage benefits, %s needs Location permission set properly. You must select <b>\“Allow all the time\"</b> on the next screen.]]></string>
+
+    <!-- Activity Permission -->
+    <string name="hig_activity_permission_description_allow">Allow</string>
+    <string name="hig_activity_permission_detail_v2"><![CDATA[%1$s uses your activity data to accurately detect that you are moving in a vehicle rather than walking or running. To record your drives and get your score, you must select <b>\"Allow\"</b> on the next screen.]]></string>
+    <string name="hig_activity_permission_detail_rewards_v2"><![CDATA[%1$s uses your activity data to accurately detect that you are moving in a vehicle rather than walking or running. To record your drives and get your rewards, you must select <b>\"Allow\"</b> on the next screen.]]></string>
+    <string name="hig_activity_permission_detail_discounts_v2"><![CDATA[%1$s uses your activity data to accurately detect that you are moving in a vehicle rather than walking or running. To record your drives and qualify for discounts, you must select <b>\"Allow\"</b> on the next screen.]]></string>
+    <string name="hig_activity_permission_detail_mileage_v2"><![CDATA[%1$s uses your activity data to accurately detect that you are moving in a vehicle rather than walking or running. To record your drives and qualify for low mileage benefits, you must select <b>\"Allow\"</b> on the next screen.]]></string>
+
+    <!-- Battery Optimization Permission -->
+    <string name="hig_battery_optimization_title">Please turn off Optimize Battery</string>
+    <string name="hig_battery_optimization_detail">To record trips, %1$s must not be in battery optimization mode. Please select %2$s on the next screen.</string>
+    <string name="hig_battery_optimization_rewards_detail">To record trips and get your rewards, %1$s must not be in battery optimization mode. Please select %2$s on the next screen.</string>
+    <string name="hig_battery_optimization_discount_detail">To record trips and qualify for discounts, %1$s must not be in battery optimization mode. Please select %2$s on the next screen.</string>
+    <string name="hig_battery_optimization_mileage_detail">To record trips and qualify for low mileage benefits, %1$s must not be in battery optimization mode. Please select %2$s on the next screen.</string>
+
+    <!-- Nearby Devices Onboarding Permission and Lockout -->
+    <string name="bluetooth_connect_notification_title">Bluetooth permission required</string>
+    <string name="bluetooth_connect_notification_message">%1$s needs Bluetooth permission (nearby devices) to record trips. Tap here to fix the problem.</string>
+    <string name="bluetooth_connect_notification_tag_message">%1$s needs Bluetooth permission (nearby devices) to record trips with your Tag. Tap here to fix the problem.</string>
+    <string name="bluetooth_disabled_notification_message">Enable Bluetooth to use %1$s</string>
+    <string name="bluetooth_connect_permission_detail"><![CDATA[%1$s needs Bluetooth to determine when to start recording a trip. Use of Bluetooth has minimal impact on phone battery usage.<br><br>Select <b>\"Allow\"</b> on the next screen.]]></string>
+    <string name="bluetooth_connect_permission_tag_detail"><![CDATA[%1$s cannot record trips without Bluetooth. Use of Bluetooth has minimal impact on phone battery usage.<br><br>Select <b>\"Allow\"</b> on the next screen.]]></string>
+    <string name="phone_only_bluetooth_connect_lockout_detail">%1$s needs access to Bluetooth (Nearby devices permission) so it can determine when to start recording a trip. Use of Bluetooth has minimal impact on phone battery usage.</string>
+    <string name="bluetooth_connect_lockout_detail">%1$s needs access to Bluetooth (Nearby devices permission) so it can communicate with the Tag to record your trips. Use of Bluetooth has minimal impact on phone battery usage.</string>
+    <string name="bluetooth_connect_lockout_steps">Follow these quick steps:</string>
+    <string name="bluetooth_connect_lockout_step_one">Tap the button below to go to %1$s’s App Info screen</string>
+    <string name="bluetooth_connect_lockout_step_two"><![CDATA[<b>Tap Permissions</b>]]></string>
+    <string name="bluetooth_connect_lockout_step_three"><![CDATA[<b>Allow</b> Nearby devices permission]]></string>
+    <string name="phone_only_bluetooth_disabled_lockout_detail"><![CDATA[%1$s needs access to Bluetooth so it can determine when to start recording a trip. Use of Bluetooth has minimal impact on phone battery usage. Please select <b>\"Allow\"</b> on the next screen.]]></string>
+
+    <!-- Notification Permission -->
+    <string name="onboarding_notifications_permission_detail"><![CDATA[%1$s will send you <b>notifications when trips are not recording</b> so you get back on track.<br><br>Select <b>\"Allow\"</b> on the next screen to make sure you receive these notifications.<br><br>If a prompt does not appear, you can enable notifications in app settings.]]></string>
+    <string name="notifications_settings_banner">Notifications are currently disabled. Tap here to access settings.</string>
+
+    <!-- Permission Lockout -->
+    <string name="hig_permission_lockout_screen_title">Houston, we have a problem.</string>
+    <string name="hig_combo_lockout_details_api30">To record your drives and get your score, %1$s needs both location permission and activity permission set properly.</string>
+    <string name="hig_combo_lockout_details_api30_without_score_text">To record your drives, %1$s needs both location permission and activity permission set properly.</string>
+    <string name="hig_combo_lockout_discount_details_api30">To record your drives and qualify for discounts, %1$s needs both location permission and activity permission set properly.</string>
+    <string name="hig_combo_lockout_reward_details_api30">To record your drives and get your rewards, %1$s needs both location permission and activity permission set properly.</string>
+    <string name="hig_combo_lockout_mileage_details_api30">To record your drives and qualify for low mileage benefits, %1$s needs both location permission and activity permission set properly.</string>
+
+    <string name="hig_activity_lockout_details_api30">To record your drives and get your score, %1$s needs Physical activity permission set to %2$s.</string>
+    <string name="hig_activity_lockout_details_api30_without_score_text">To record your drives, %1$s needs Physical activity permission set to %2$s.</string>
+    <string name="hig_activity_lockout_discount_details_api30">To record your drives and qualify for discounts, %1$s needs Physical activity permission set to %2$s.</string>
+    <string name="hig_activity_lockout_reward_details_api30">To record your drives and get your rewards, %1$s needs Physical activity permission set to %2$s.</string>
+    <string name="hig_activity_lockout_mileage_details_api30">To record your drives and qualify for low mileage benefits, %1$s needs Physical activity permission set to %2$s.</string>
+
+    <string name="hig_location_lockout_details_api30">To record your drives and get your score, %1$s needs Location permission set to %2$s.</string>
+    <string name="hig_location_lockout_discount_details_api30">To record your drives and qualify for discounts, %1$s needs Location permission set to %2$s.</string>
+    <string name="hig_location_lockout_reward_details_api30">To record your drives and get your rewards, %1$s needs Location permission set to %2$s.</string>
+    <string name="hig_location_lockout_mileage_details_api30">To record your drives and provide low mileage benefits, %1$s needs Location permission set to %2$s.</string>
+    <string name="hig_location_lockout_details_and12_api30">To record your drives and get your score, %1$s needs Location permission set to %2$s and precise location turned on.</string>
+    <string name="hig_location_lockout_discount_details_and12_api30">To record your drives and qualify for discounts, %1$s needs Location permission set to %2$s and precise location turned on.</string>
+    <string name="hig_location_lockout_reward_details_and12_api30">To record your drives and get your rewards, %1$s needs Location permission set to %2$s and precise location turned on.</string>
+    <string name="hig_location_lockout_mileage_details_and12_api30">To record your drives and provide low mileage benefits, %1$s needs Location permission set to %2$s and precise location turned on.</string>
+
+    <string name="hig_bluetooth_lockout_details_api30">%1$s needs access to Bluetooth so it can communicate with the Tag to record your trips. Use of Bluetooth has minimal impact on phone battery usage. Please select %2$s on the next screen.</string>
+    <string name="hig_bluetooth_lockout_discount_details_api30">%1$s needs access to Bluetooth so it can communicate with the Tag to record your trips and determine discounts. Use of Bluetooth has minimal impact on phone battery usage. Please select %2$s on the next screen.</string>
+    <string name="hig_bluetooth_lockout_reward_details_api30">%1$s needs access to Bluetooth so it can communicate with the Tag to record your trips and get your rewards. Use of Bluetooth has minimal impact on phone battery usage. Please select %2$s on the next screen.</string>
+    <string name="hig_bluetooth_lockout_mileage_details_api30">%1$s needs access to Bluetooth so it can communicate with the Tag to record your trips and determine your low mileage benefits. Use of Bluetooth has minimal impact on phone battery usage. Please select %2$s on the next screen.</string>
+
+    <string name="hig_bg_restriction_lockout_details">%1$s has been restricted from collecting trip data in the background. Tap the button below and then go to the app\'s Battery settings.</string>
+    <string name="hig_restriction_lockout_steps">Make sure that:</string>
+    <string name="hig_restriction_lockout_step_one">The app can use battery in the background and activity in the background is not restricted</string>
+    <string name="hig_restriction_lockout_step_two">Battery usage for the app is not being optimized</string>
+    <string name="hig_restriction_lockout_step_three">Other battery saver settings for the app are turned off</string>
+    <string name="impact_detected_heading_demo_mode">If you don\'t respond, we\'ll assume you need help and call you in %d secs.(Note: In demo mode, we won\'t call)</string>
+    <string name="crash_assistance_yes_sub_title">We will call you ASAP.</string>
+    <string name="crash_assistance_yes_title">Help is on the way.</string>
+    <string name="emergencyAssistance">Do you need an ambulance?</string>
+    <string name="emergencyAssistanceBody">We will call you to confirm.</string>
+
+    <string name="crash_assist_section_name">PROBLEM ON THE ROAD?</string>
+    <string name="you_are_protected">You\'re Protected.</string>
+    <string name="dash_crash_assist_text">CrashAssist is enabled and is protecting you on every trip. Safe travels!</string>
+    <string name="crash_assist_title">CrashAssist</string>
+    <string name="crash_assist_learn_more">Learn more</string>
+    <string name="simulate_crash">Simulate a crash</string>
+    <!-- Crash Assist Info-->
+    <string name="crash_assist_info_title">How does CrashAssist work?</string>
+    <string name="crash_detected_title">Crash detected</string>
+    <string name="crash_detected_description">We detect a crash and send you a notification to confirm. If you don’t respond, we call you. If we still don’t hear from you, we’ll send help to your location.</string>
+    <string name="crash_confirmed_title">Crash confirmed</string>
+    <string name="crash_confirmed_description">If you need help, we’ll coordinate a tow and/or an ambulance as soon as possible.</string>
+    <string name="crash_help_title">Help is on the way</string>
+    <string name="crash_help_description">We’ll know where you are through the app, so you won’t have to worry about identifying your location.</string>
+    <string name="crash_quick_title">Quick, easy claims</string>
+    <string name="crash_quick_description">We’ll gather details about your crash to expedite the digital claim process. All you’ll have to do is fill in a few more blanks.</string>
+    <string name="tech_requirements_link">For more information, view CrashAssist requirements</string>
+    <string name="countdown_seconds_text">seconds</string>
+    <string name="goToSettings">Go to settings</string>
+    <string name="crashAssistDisabled">CrashAssist is disabled.</string>
+    <string name="crashAssistDisabledSubText">Navigate to Settings to enable CrashAssist and protect yourself on the road.</string>
+    <string name="settings_crash_assist">CrashAssist</string>
+
+    <string name="dash_speedo_info_screen_title">@string/app_name</string>
+
+    <string name="hig_activity_onboarding_title_android10">Don\'t Miss Your Trips!</string>
+    <string name="hig_activity_onboarding_title_android11">Don\'t Miss Your Trips!</string>
+    <string name="hig_activity_lockout_title">Houston, we have a problem.</string>
+    <string name="hig_location_lockout_title">Houston, we have a problem.</string>
+    <string name="hig_combo_lockout_title">Houston, we have a problem.</string>
+    <string name="hig_location_onboarding_title_android10"><![CDATA[<b>%1$s requires your location all the time</b>]]></string>
+    <string name="hig_location_lockout_title_android10">Houston, we have a problem.</string>
+    <string name="hig_activity_lockout_title_android10">Houston, we have a problem.</string>
+    <string name="hig_background_restriction_title">Houston, we have a problem.</string>
+    <string name="hig_battery_optimization_lockout_title">Houston, we have a problem.</string>
+
+    <string name="driver_label_description">I was driving a car or truck, and a score will be calculated.</string>
+    <string name="passenger_label_description">I was in a car or truck, but I did not drive. A score is not calculated.</string>
+    <string name="driver_but_passenger_label_description">I was driving a car or truck, but my phone was used by a passenger and phone usage will be excluded from the score.</string>
+    <string name="other_label_description">Motorcycle, train, plane, bike, or other mode of transportation. A score is not calculated.</string>
+
+    <!--Deep link card-->
+    <string name="get_corporate_app_title"></string>
+    <string name="open_corporate_app_title"></string>
+    <string name="profile_key_for_deeplink">policy_number</string>
+</resources>
+
